@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>清柠</title>
+  
+  
+  <link href="https://wu-haitao.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wu-haitao.github.io/"/>
+  <updated>2020-11-28T16:40:43.297Z</updated>
+  <id>https://wu-haitao.github.io/</id>
+  
+  <author>
+    <name>Wu Haitao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写在最前面</title>
+    <link href="https://wu-haitao.github.io/2020/11/29/%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D%E9%9D%A2/"/>
+    <id>https://wu-haitao.github.io/2020/11/29/%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D%E9%9D%A2/</id>
+    <published>2020-11-28T16:26:56.000Z</published>
+    <updated>2020-11-28T16:40:43.297Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;昨天查资料的时候，发现很多大牛会在自己的博客里分享一些干货，感觉很棒。&lt;/p&gt;
+&lt;p&gt;索性折腾一个下午，也给自己建了一个博客。&lt;/p&gt;
+&lt;p&gt;平时学点东西总是现学现用，之后大概就忘记了，再往后要用往往还得费时费力重新学习。这实在不是一个好习惯。应该做一些记录。&lt;/p&gt;
+&lt;p</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
