@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>清柠</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://wu-haitao.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://wu-haitao.github.io/"/>
   <updated>2020-11-28T07:47:01.046Z</updated>
-  <id>http://example.com/</id>
+  <id>https://wu-haitao.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Wu Haitao</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="http://example.com/2020/11/28/Hello-Hexo/"/>
-    <id>http://example.com/2020/11/28/Hello-Hexo/</id>
+    <link href="https://wu-haitao.github.io/2020/11/28/Hello-Hexo/"/>
+    <id>https://wu-haitao.github.io/2020/11/28/Hello-Hexo/</id>
     <published>2020-11-28T07:47:01.000Z</published>
     <updated>2020-11-28T07:47:01.046Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2020/11/28/hello-world/"/>
-    <id>http://example.com/2020/11/28/hello-world/</id>
+    <link href="https://wu-haitao.github.io/2020/11/28/hello-world/"/>
+    <id>https://wu-haitao.github.io/2020/11/28/hello-world/</id>
     <published>2020-11-28T07:42:18.598Z</published>
     <updated>2020-11-28T07:42:18.598Z</updated>
     
