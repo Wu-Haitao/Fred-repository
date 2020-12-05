@@ -6,7 +6,7 @@
   <link href="https://wu-haitao.github.io/atom.xml" rel="self"/>
   
   <link href="https://wu-haitao.github.io/"/>
-  <updated>2020-12-05T10:59:14.584Z</updated>
+  <updated>2020-12-05T11:02:42.463Z</updated>
   <id>https://wu-haitao.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://wu-haitao.github.io/2020/12/05/2020-12-05-01/"/>
     <id>https://wu-haitao.github.io/2020/12/05/2020-12-05-01/</id>
     <published>2020-12-05T09:17:48.000Z</published>
-    <updated>2020-12-05T10:59:14.584Z</updated>
+    <updated>2020-12-05T11:02:42.463Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;这两天想写一个用于Unity项目中的对话系统时接触到了TextMesh Pro这个玩意儿，它相比于普通的Text组件强了不少，但是居然不默认支持中文。咋办呢？&lt;/p&gt;
-&lt;img src=&quot;1.png&quot; align=&quot;left&quot; width=&quot;50%&quot;</summary>
+&lt;p&gt;&lt;img src=&quot;1.png&quot; align=&quot;left&quot; width=&quot;50%&quot;</summary>
         
       
     
