@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    TextMesh Pro 显示中文字符的方法 |  清柠
+    categories |  清柠
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -44,240 +44,12 @@
       
     <main class="content on">
       <section class="outer">
-  <article
-  id="post-2020-12-05-01"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  TextMesh Pro 显示中文字符的方法
-</h1>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2020/12/05/2020-12-05-01/" class="article-date">
-  <time datetime="2020-12-05T09:17:48.000Z" itemprop="datePublished">2020-12-05</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Unity%E5%AD%A6%E4%B9%A0/">Unity学习</a>
-  </div>
   
-<div class="word_count">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">464</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1 分钟</span>
-        </span>
-    </span>
-</div>
- 
+    <h1 class="page-type-title">分类</h1>
+    <div class="categories-box">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Unity%E5%AD%A6%E4%B9%A0/">Unity学习</a><span class="category-list-count">1</span></li></ul>
     </div>
-      
-    <div class="tocbot"></div>
-
-
-
-
   
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>这两天在写一个用于Unity项目中的对话系统时，了解到了TextMesh Pro这个玩意儿。它相比于普通的Text组件强了不少，但是居然不默认支持中文。咋办呢？</p>
-<p align="left">
-  <img src="1.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-
-<p>上网查了查，发现解决的方法很简单。这里我来做个演示：</p>
-<a id="more"></a>
-
-<h1 id="使用Font-Asset-Creator"><a href="#使用Font-Asset-Creator" class="headerlink" title="使用Font Asset Creator"></a>使用Font Asset Creator</h1><p>首先打开Font Asset Creator这个工具。</p>
-<p align="left">
-  <img src="2.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-<p align="left">
-  <img src="3.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-
-<p><em>Source Font File</em> 字体文件。</p>
-<p><em>Sampling Point Size</em> 可以自己选择数值，一般情况下选Auto Sizing就可以。</p>
-<p><em>Padding</em> 这个数值会影响描边或者阴影的效果，一般保持默认。</p>
-<p><em>Packing Method</em> 选快速就可以。</p>
-<p><em>Atlas Resolution</em> 这个尺寸由字符数量等因素决定。中文字符比较多所以选择大一些。</p>
-<p><em>Character Set</em> 根据需求选择用于生成的字符集。这里我有一个现成的文件（包含数千个中文字符的文本文件），所以选择Characters from File这个选项。假设项目中所需字符数量少，那么选择Custom Characters并直接填入字符集也行。</p>
-<p><em>Render Mode</em> 渲染方式。</p>
-<h1 id="生成并保存Font-Asset"><a href="#生成并保存Font-Asset" class="headerlink" title="生成并保存Font Asset"></a>生成并保存Font Asset</h1><p>这些选项选好了之后，点击Generate Font Atlas开始生成Font Asset文件。因为字数比较多，所以生成速度可能会有些慢，耐心等待。</p>
-<p>结束后可以在右边看到生成的结果。</p>
-<p align="left">
-  <img src="4.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-
-<p>值得注意的是，左下角的方框里包含了一些重要信息，其中Point Size这个数值会影响显示时的清晰度，还有Missing characters里统计了哪些字符生成失败（原因往往是字体里面不包含这些字符）。</p>
-<p>确认无误后，点击Save或者Save as进行保存。</p>
-<h1 id="应用Font-Asset至TMP"><a href="#应用Font-Asset至TMP" class="headerlink" title="应用Font Asset至TMP"></a>应用Font Asset至TMP</h1><p>保存之后，到TMP的Inspector里面修改Font Asset为刚刚保存的文件。</p>
-<p align="left">
-  <img src="5.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-
-<p>成功显示中文。</p>
-<p align="left">
-  <img src="6.png" alt="" width='50%' height='50%' style="margin: 0;"/>
-</p>
-
-
-<p>差不多就是这样¯(°_o)/¯</p>
- 
-      <!-- reward -->
-      
-      <div id="reword-out">
-        <div id="reward-btn">
-          打赏
-        </div>
-      </div>
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
-
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wu-haitao.github.io/2020/12/05/2020-12-05-01/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TextMesh-Pro/" rel="tag">TextMesh Pro</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Unity/" rel="tag">Unity</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-  <nav class="article-nav">
-    
-    
-      <a href="/2020/11/29/2020-11-29-01/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">写在最前面</div>
-      </a>
-    
-  </nav>
-
-   
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
-<script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "etwXqWdCQ2oqmXW2H4FNXQvB-gzGzoHsz",
-    app_key: "2nwu1ly8o1v0lYALdbS3g1Wk",
-    path: window.location.pathname,
-    avatar: "hide",
-    placeholder: "给我的文章加点评论吧~",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
-  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-    infoEle.childNodes.forEach(function (item) {
-      item.parentNode.removeChild(item);
-    });
-  }
-</script>
-<style>
-  #vcomments-box {
-    padding: 5px 30px;
-  }
-
-  @media screen and (max-width: 800px) {
-    #vcomments-box {
-      padding: 5px 0px;
-    }
-  }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
-  }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
-  }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
-  }
-</style>
-
- 
-     
-</article>
-
 </section>
       <footer class="footer">
   <div class="outer">
@@ -421,23 +193,6 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
-
-
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: '.tocbot',
-    contentSelector: '.article-entry',
-    headingSelector: 'h1, h2, h3, h4, h5, h6',
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: 'main',
-    positionFixedSelector: '.tocbot',
-    positionFixedClass: 'is-position-fixed',
-    fixedSidebarOffset: 'auto'
-  });
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
