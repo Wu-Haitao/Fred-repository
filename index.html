@@ -167,11 +167,14 @@
     <div class="article-entry" itemprop="articleBody">
        
   <p>这两天想写一个用于Unity项目中的对话系统时接触到了TextMesh Pro这个玩意儿，它相比于普通的Text组件强了不少，但是居然不默认支持中文。咋办呢？</p>
-<p><img src="1.png"></p>
+<img src="1.png" align="left" width="50%" height="50%">
+
 <p>上网查了查，发现解决的方法很简单。这里我来做个演示：</p>
 <h1 id="使用Font-Asset-Creator"><a href="#使用Font-Asset-Creator" class="headerlink" title="使用Font Asset Creator"></a>使用Font Asset Creator</h1><p>首先打开Font Asset Creator这个工具。</p>
-<p><img src="2.png"></p>
-<p><img src="3.png"></p>
+<img src="2.png" align="left" width="50%" height="50%">
+
+<img src="3.png" align="left" width="50%" height="50%">
+
 <p>Source Font File 就是选用的字体文件。</p>
 <p>Sampling Point Size 可以自己选择数值，不过一般情况下选Auto Sizing 就可以。</p>
 <p>Padding 的数值会影响描边或者阴影的效果，一般保持默认。</p>
@@ -181,13 +184,16 @@
 <p>Render Mode 渲染方式。</p>
 <h1 id="生成并保存Font-Asset"><a href="#生成并保存Font-Asset" class="headerlink" title="生成并保存Font Asset"></a>生成并保存Font Asset</h1><p>这些选项选好了之后，点击Generate Font Atlas开始生成Font Asset文件。因为字数比较多，所以生成速度可能会有些慢，耐心等待。</p>
 <p>渲染结束后就可以在右边看到成果。</p>
-<p><img src="4.png"></p>
+<img src="4.png" align="left" width="50%" height="50%">
+
 <p>值得注意的是，左下角的方框里包含了一些信息，其中Point Size这个数值会影响显示时的清晰度，还有Missing characters里面可以看到哪些字符生成失败（原因大概是字体里面不包含这些字符）。</p>
 <p>确认无误后，点击Save或者Save as进行保存。</p>
 <h1 id="应用Font-Asset至TMP"><a href="#应用Font-Asset至TMP" class="headerlink" title="应用Font Asset至TMP"></a>应用Font Asset至TMP</h1><p>保存之后，到TMP的Inspector里面修改Font Asset为刚刚保存的那个。</p>
-<p><img src="5.png"></p>
+<img src="5.png" align="left" width="50%" height="50%">
+
 <p>成功显示中文。</p>
-<p><img src="6.png"></p>
+<img src="6.png" align="left" width="50%" height="50%">
+
 <p>差不多就是这样¯(°_o)/¯</p>
  
       <!-- reward -->
