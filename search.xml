@@ -14,14 +14,14 @@
     <title>TextMesh Pro 显示中文字符的方法</title>
     <url>/2020/12/05/2020-12-05-01/</url>
     <content><![CDATA[<p>这两天在写一个用于Unity项目中的对话系统时，了解到了TextMesh Pro这个玩意儿。它相比于普通的Text组件强了不少，但是居然不默认支持中文。咋办呢？</p>
+<a id="more"></a>
+
 <p align="left">
   <img src="1.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
-<p>上网查了查，发现解决的方法很简单。这里我来做个演示：</p>
-<a id="more"></a>
-
+<p>上网查了查，发现解决的方法很简单。这里我来做个演示。</p>
 <h1 id="使用Font-Asset-Creator"><a href="#使用Font-Asset-Creator" class="headerlink" title="使用Font Asset Creator"></a>使用Font Asset Creator</h1><p>首先打开Font Asset Creator这个工具。</p>
 <p align="left">
   <img src="2.png" alt="" width='50%' height='50%' style="margin: 0;"/>
@@ -69,5 +69,16 @@
         <tag>Unity</tag>
         <tag>TextMesh Pro</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>免费文献下载网站</title>
+    <url>/2021/01/11/2021-01-11-01/</url>
+    <content><![CDATA[<p>这学期有门课需要一本<em>The Natural Heritage of Singapore</em>，大概是比较冷门，Google了一下没有发现可下载的资源。看了一下二手网站居然要20$，好贵。<br>正愁着呢，电报群里居然有个同学分享了下载链接。<br>原来是我孤陋寡闻了，上大学这么久居然不知道还有这么一个地方：<br><strong>Library Genesis</strong> <a href="http://gen.lib.rus.ec/">http://gen.lib.rus.ec/</a></p>
+<p>网站宗旨原文摘抄如下：</p>
+<blockquote>
+<p><strong>The Code of Library Genesis</strong><br><br> <font size="2"><strong>1. Goals, Priorities, and Affiliation of LG</strong><br><br> 1.1. Collection, systematization and distribution of scientific, technical and educational literature on a free and open basis.<br><br> 1.2. LG is made by people and belongs to the people.<br><br> 1.3. The goals are to create and improve, avoiding uncontrollable states, with constructive mind to help the society overcome barriers. The goal is not to destroy anything.<br><br> 1.4. The goals of the community override the goals of its members.<br><br> 1.5. Survival of LG is a priority.<br><br> <strong>2. Prohibitions</strong><br><br> 2.1. Profit.<br><br> 2.2. Disclosure or exchange of personal information, disclosure of access credentials or other identifying details.<br><br> 2.3. Transfer of assets explicitly affiliated with LG, disclosure of critical LG data, their destruction, or modification of access to them, outreach on behalf of the LG community by others than the Management Council.<br><br> 2.4. Activities that defame LG’s principles, intentionally misleading information, and activities directly aimed at destruction in the broadest sense.<br><br> 2.5. Individualism in decision-making (violates the fundamental principle of collectivity of Library Genesis, leading to a completely different type of system: centralized, closed and, as a result, non-self-organizing, and to radically different dynamics).<br><br> 2.6. Usurpation of power, access, or developments under the auspices of LG, misuse of LG assets, manipulation of the community engaged in LG, misleading of it, substitution of goals, priorities, affiliation, falsification of history.<br><br> 2.7. Commit actions based on opinions with insufficient scientific reasoning.</font></p>
+</blockquote>
+<p>真不错！</p>
+]]></content>
   </entry>
 </search>
