@@ -17,6 +17,12 @@ body {
 .search-form-wrap {
   right: 8rem;
 }
+.MathJax_Display,
+.MJXc-display,
+.MathJax_SVG_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 @media (min-width: 768px) {
   .outer,
   .wrap {
@@ -30,10 +36,4 @@ body {
   .content.on {
     transform: translateX(8rem);
   }
-}
-.MathJax_Display,
-.MJXc-display,
-.MathJax_SVG_Display {
-  overflow-x: auto;
-  overflow-y: hidden;
 }
