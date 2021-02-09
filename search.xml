@@ -11,15 +11,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>分享一个免费文献下载网站</title>
-    <url>/2021/01/11/2021-01-11-01/</url>
-    <content><![CDATA[<p>这学期有门课需要一本参考书，大概是比较冷门，Google 了一下没有发现可下载的资源。看了一下二手网站居然要20$，好贵。</p>
-<p>正愁着呢，电报群里居然有个同学分享了下载链接。</p>
-<p>原来是我孤陋寡闻了，上大学这么久居然不知道还有这么一个地方：</p>
-<p><strong>Library Genesis</strong> <a href="http://gen.lib.rus.ec/">http://gen.lib.rus.ec/</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>TextMesh Pro 显示中文字符的方法</title>
     <url>/2020/12/05/2020-12-05-01/</url>
     <content><![CDATA[<p>这两天在写一个用于 Unity 项目中的对话系统时，了解到了 TextMesh Pro 这个玩意儿。它相比于普通的 Text 组件强了不少，但是居然不默认支持中文。咋办呢？</p>
@@ -80,11 +71,19 @@
       </tags>
   </entry>
   <entry>
+    <title>分享一个免费文献下载网站</title>
+    <url>/2021/01/11/2021-01-11-01/</url>
+    <content><![CDATA[<p>这学期有门课需要一本参考书，大概是比较冷门，Google 了一下没有发现可下载的资源。看了一下二手网站居然要20$，好贵。</p>
+<p>正愁着呢，电报群里居然有个同学分享了下载链接。</p>
+<p>原来是我孤陋寡闻了，上大学这么久居然不知道还有这么一个地方：</p>
+<p><strong>Library Genesis</strong> <a href="http://gen.lib.rus.ec/">http://gen.lib.rus.ec/</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>信号与系统学习笔记#1</title>
     <url>/2021/02/06/2021-02-06-01/</url>
-    <content><![CDATA[<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-</script>
+    <content><![CDATA[<br>
+
 <a id="more"></a>
 
 <h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="Analog-and-Digital-signals"><a href="#Analog-and-Digital-signals" class="headerlink" title="Analog and Digital signals"></a>Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><ul>
@@ -203,9 +202,8 @@
   <entry>
     <title>信号与系统学习笔记#2</title>
     <url>/2021/02/09/2021-02-09-01/</url>
-    <content><![CDATA[<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-</script>
+    <content><![CDATA[<br>
+
 <a id="more"></a>
 
 <h1 id="频谱定义"><a href="#频谱定义" class="headerlink" title="频谱定义"></a>频谱定义</h1><ul>

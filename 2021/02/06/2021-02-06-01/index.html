@@ -99,9 +99,8 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-</script>
+  <br>
+
 <a id="more"></a>
 
 <h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="Analog-and-Digital-signals"><a href="#Analog-and-Digital-signals" class="headerlink" title="Analog and Digital signals"></a>Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><ul>
@@ -625,6 +624,30 @@
 </script>
 
 <!-- MathJax -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 <!-- Katex -->
 
