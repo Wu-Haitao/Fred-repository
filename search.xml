@@ -11,9 +11,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>分享一个免费文献下载网站</title>
+    <url>/2021/01/11/2021-01-11-01/</url>
+    <content><![CDATA[<p>这学期有门课需要一本参考书，大概是比较冷门，Google 了一下没有发现可下载的资源。看了一下二手网站居然要20$，好贵。</p>
+<p>正愁着呢，电报群里居然有个同学分享了下载链接。</p>
+<p>原来是我孤陋寡闻了，上大学这么久居然不知道还有这么一个地方：</p>
+<p><strong>Library Genesis</strong> <a href="http://gen.lib.rus.ec/">http://gen.lib.rus.ec/</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>TextMesh Pro 显示中文字符的方法</title>
     <url>/2020/12/05/2020-12-05-01/</url>
-    <content><![CDATA[<p>这两天在写一个用于Unity项目中的对话系统时，了解到了TextMesh Pro这个玩意儿。它相比于普通的Text组件强了不少，但是居然不默认支持中文。咋办呢？</p>
+    <content><![CDATA[<p>这两天在写一个用于 Unity 项目中的对话系统时，了解到了 TextMesh Pro 这个玩意儿。它相比于普通的 Text 组件强了不少，但是居然不默认支持中文。咋办呢？</p>
 <a id="more"></a>
 
 <p align="left">
@@ -22,7 +31,7 @@
 
 
 <p>上网查了查，发现解决的方法很简单。这里我来做个演示。</p>
-<h1 id="使用Font-Asset-Creator"><a href="#使用Font-Asset-Creator" class="headerlink" title="使用Font Asset Creator"></a>使用Font Asset Creator</h1><p>首先打开Font Asset Creator这个工具。</p>
+<h1 id="使用-Font-Asset-Creator"><a href="#使用-Font-Asset-Creator" class="headerlink" title="使用 Font Asset Creator"></a>使用 Font Asset Creator</h1><p>首先打开 Font Asset Creator 这个工具。</p>
 <p align="left">
   <img src="2.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
@@ -33,22 +42,22 @@
 
 
 <p><em>Source Font File</em> 字体文件。</p>
-<p><em>Sampling Point Size</em> 可以自己选择数值，一般情况下选Auto Sizing就可以。</p>
+<p><em>Sampling Point Size</em> 可以自己选择数值，一般情况下选 Auto Sizing 就可以。</p>
 <p><em>Padding</em> 这个数值会影响描边或者阴影的效果，一般保持默认。</p>
 <p><em>Packing Method</em> 选快速就可以。</p>
 <p><em>Atlas Resolution</em> 这个尺寸由字符数量等因素决定。中文字符比较多所以选择大一些。</p>
-<p><em>Character Set</em> 根据需求选择用于生成的字符集。这里我有一个现成的文件（包含数千个中文字符的文本文件），所以选择Characters from File这个选项。假设项目中所需字符数量少，那么选择Custom Characters并直接填入字符集也行。</p>
+<p><em>Character Set</em> 根据需求选择用于生成的字符集。这里我有一个现成的文件（包含数千个中文字符的文本文件），所以选择 Characters from File 这个选项。假设项目中所需字符数量少，那么选择 Custom Characters 并直接填入字符集也行。</p>
 <p><em>Render Mode</em> 渲染方式。</p>
-<h1 id="生成并保存Font-Asset"><a href="#生成并保存Font-Asset" class="headerlink" title="生成并保存Font Asset"></a>生成并保存Font Asset</h1><p>这些选项选好了之后，点击Generate Font Atlas开始生成Font Asset文件。因为字数比较多，所以生成速度可能会有些慢，耐心等待。</p>
+<h1 id="生成并保存-Font-Asset"><a href="#生成并保存-Font-Asset" class="headerlink" title="生成并保存 Font Asset"></a>生成并保存 Font Asset</h1><p>这些选项选好了之后，点击 Generate Font Atlas 开始生成 Font Asset 文件。因为字数比较多，所以生成速度可能会有些慢，耐心等待。</p>
 <p>结束后可以在右边看到生成的结果。</p>
 <p align="left">
   <img src="4.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
-<p>值得注意的是，左下角的方框里包含了一些重要信息，其中Point Size这个数值会影响显示时的清晰度，还有Missing characters里统计了哪些字符生成失败（原因往往是字体里面不包含这些字符）。</p>
-<p>确认无误后，点击Save或者Save as进行保存。</p>
-<h1 id="应用Font-Asset至TMP"><a href="#应用Font-Asset至TMP" class="headerlink" title="应用Font Asset至TMP"></a>应用Font Asset至TMP</h1><p>保存之后，到TMP的Inspector里面修改Font Asset为刚刚保存的文件。</p>
+<p>值得注意的是，左下角的方框里包含了一些重要信息，其中 Point Size 这个数值会影响显示时的清晰度，还有 Missing characters 里统计了哪些字符生成失败（原因往往是字体里面不包含这些字符）。</p>
+<p>确认无误后，点击 Save 或者 Save as 进行保存。</p>
+<h1 id="应用-Font-Asset-至-TMP"><a href="#应用-Font-Asset-至-TMP" class="headerlink" title="应用 Font Asset 至 TMP"></a>应用 Font Asset 至 TMP</h1><p>保存之后，到 TMP 的 Inspector 里面修改 Font Asset 为刚刚保存的文件。</p>
 <p align="left">
   <img src="5.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
@@ -71,15 +80,6 @@
       </tags>
   </entry>
   <entry>
-    <title>分享一个免费文献下载网站</title>
-    <url>/2021/01/11/2021-01-11-01/</url>
-    <content><![CDATA[<p>这学期有门课需要一本参考书，大概是比较冷门，Google了一下没有发现可下载的资源。看了一下二手网站居然要20$，好贵。</p>
-<p>正愁着呢，电报群里居然有个同学分享了下载链接。</p>
-<p>原来是我孤陋寡闻了，上大学这么久居然不知道还有这么一个地方：</p>
-<p><strong>Library Genesis</strong> <a href="http://gen.lib.rus.ec/">http://gen.lib.rus.ec/</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>信号与系统学习笔记#1</title>
     <url>/2021/02/06/2021-02-06-01/</url>
     <content><![CDATA[<script type="text/javascript" async
@@ -87,7 +87,7 @@
 </script>
 <a id="more"></a>
 
-<h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="A-Analog-and-Digital-signals"><a href="#A-Analog-and-Digital-signals" class="headerlink" title="A. Analog and Digital signals"></a>A. Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><ul>
+<h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="Analog-and-Digital-signals"><a href="#Analog-and-Digital-signals" class="headerlink" title="Analog and Digital signals"></a>Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><ul>
 <li><p>当\(t\)为一个连续变量时信号\(x(t)\)被称作连续时间信号。</p>
 </li>
 <li><p>通常用波形图来描述。</p>
@@ -106,7 +106,7 @@
 </ul>
 <h4 id="Analog-sequence"><a href="#Analog-sequence" class="headerlink" title="Analog sequence"></a>Analog sequence</h4><p>A discrete-time signal that can take any value in an interval \((a, b)\), where \(a\) may be \(-\infty\) and \(b\) may be \(+\infty\).</p>
 <h4 id="Digital-sequence"><a href="#Digital-sequence" class="headerlink" title="Digital sequence"></a>Digital sequence</h4><p>A discrete-time signal that can take on only a finite number of distinct levels.<br>Usually obtained by quantizing a discrete-time signal.</p>
-<h2 id="B-Periodic-and-Aperiodic-signals"><a href="#B-Periodic-and-Aperiodic-signals" class="headerlink" title="B. Periodic and Aperiodic signals"></a>B. Periodic and Aperiodic signals</h2><ul>
+<h2 id="Periodic-and-Aperiodic-signals"><a href="#Periodic-and-Aperiodic-signals" class="headerlink" title="Periodic and Aperiodic signals"></a>Periodic and Aperiodic signals</h2><ul>
 <li><p>信号 \(x(t)\) 具有周期性如果存在一个正值\(T\)使得</p>
 <p>\[<br>x(t)=x(t+T);\ \forall t<br>\]</p>
 </li>
@@ -117,22 +117,22 @@
 <li><p>不具有周期性（periodic）的信号具有非周期性（aperiodic）。</p>
 </li>
 </ul>
-<h2 id="C-Real-and-Complex-signals"><a href="#C-Real-and-Complex-signals" class="headerlink" title="C. Real and Complex signals"></a>C. Real and Complex signals</h2><ul>
+<h2 id="Real-and-Complex-signals"><a href="#Real-and-Complex-signals" class="headerlink" title="Real and Complex signals"></a>Real and Complex signals</h2><ul>
 <li><p>信号\(x(t)\)为复合信号如果其可被表示为\(a(t)+jb(t)\)，其中\(a(t)\)和\(b(t)\)是实信号，\(j\)为虚数单位。</p>
 </li>
-<li><p>Cartesian的形式：</p>
+<li><p>Cartesian 的形式：</p>
 <p>\[<br>x(t)=a(t)+jb(t)<br>\]</p>
 <p>其中</p>
 <p>\(a(t)=Re[x(t)]\)    Real part of \(x(t)\)</p>
 <p>\(b(t)=Im[x(t)]\)    Imaginary part of \(x(t)\)</p>
 </li>
-<li><p>Polar的形式：</p>
+<li><p>Polar 的形式：</p>
 <p>\[<br>x(t)=r(t)\exp(j\theta(t))<br>\]</p>
 <p>其中</p>
 <p>\(r(t)=|x(t)|\)    Magnitude of \(x(t)\)</p>
 <p>\(\theta(t)=\angle x(t)\)    Phase Angle of \(x(t)\)</p>
 </li>
-<li><p>Cartesian和Polar之间的关系</p>
+<li><p>Cartesian 和 Polar 之间的关系</p>
 <p>\[<br>a(t)=r(t)\cos[\theta(t)]\quad b(t)=r(t)\sin[\theta(t)]<br>\]</p>
 <p>\[<br>r(t)=\sqrt {a^2(t)+b^2(t)}\quad \theta(t)=\tan^{-1}(\frac{b(t)}{a(t)})<br>\]</p>
 </li>
@@ -141,7 +141,7 @@
 <li><p>\(x(t)\)为实信号如果对于任何\(t\)值它的取值都是实数。这是复变信号在\(b(t)=0\)或者\(\theta(t)=\pm n\pi=\pm n180°\)的一个特殊情况。</p>
 </li>
 </ul>
-<h2 id="D-Energy-and-Power-signals"><a href="#D-Energy-and-Power-signals" class="headerlink" title="D. Energy and Power signals"></a>D. Energy and Power signals</h2><ul>
+<h2 id="Energy-and-Power-signals"><a href="#Energy-and-Power-signals" class="headerlink" title="Energy and Power signals"></a>Energy and Power signals</h2><ul>
 <li><p>信号\(x(t)\)的总能量\(E\)定义为：</p>
 <p>\[<br>E=\int_{-\infty}^{\infty}|x(t)|^2dt<br>\]</p>
 <p>\(x(t)\)被称为是一个能量信号当且仅当\(0&lt;E&lt;\infty\)。</p>
@@ -157,14 +157,22 @@
 </li>
 </ul>
 <h1 id="基础信号"><a href="#基础信号" class="headerlink" title="基础信号"></a>基础信号</h1><h2 id="The-Unit-Step-function"><a href="#The-Unit-Step-function" class="headerlink" title="The Unit Step function"></a>The Unit Step function</h2><p>\[<br>u(t)=<br>\begin{cases}<br>1;\ t\geq 0<br>\newline<br>0;\ t&lt;0<br>\end{cases}<br>\]</p>
+<p><img src="1.png"></p>
 <h2 id="The-Sign-or-Signum-function"><a href="#The-Sign-or-Signum-function" class="headerlink" title="The Sign(or Signum) function"></a>The Sign(or Signum) function</h2><p>\[<br>\begin{split}<br>sgn(t)&amp;=<br>\begin{cases}<br>+1;\ t\geq 0<br>\newline<br>-1;\ t&lt;0<br>\end{cases}<br>\newline<br>&amp;=2u(t)-1<br>\end{split}<br>\]</p>
+<p><img src="2.png"></p>
 <h2 id="The-Rectangle-function"><a href="#The-Rectangle-function" class="headerlink" title="The Rectangle function"></a>The Rectangle function</h2><p>\[<br>rect(\frac{t}{T})=<br>\begin{cases}<br>1;\ -\frac{T}{2}\leq t &lt; \frac{T}{2}<br>\newline<br>0;\ \mbox{elsewhere}<br>\end{cases}<br>\]</p>
+<p><img src="3.png"></p>
 <h2 id="The-Triangle-function"><a href="#The-Triangle-function" class="headerlink" title="The Triangle function"></a>The Triangle function</h2><p>\[<br>tri(\frac{t}{T})=<br>\begin{cases}<br>1-\frac{|t|}{T};\ |t|\leq T<br>\newline<br>0;\ |t|&gt;T<br>\end{cases}<br>\]</p>
+<p><img src="4.png"></p>
 <h2 id="The-Sinc-sine-Cardinal-function"><a href="#The-Sinc-sine-Cardinal-function" class="headerlink" title="The Sinc(sine Cardinal) function"></a>The Sinc(sine Cardinal) function</h2><p>\[<br>sinc(\frac{t}{T})=<br>\begin{cases}<br>\frac{\sin(\pi t/T)}{\pi t/T};\ t\neq 0<br>\newline<br>1;\ t=0<br>\end{cases}<br>\]</p>
 <p>\[<br>\mbox{Note: }<br>sinc(x)=<br>\begin{cases}<br>0;\ x=\mbox{integer}\neq 0<br>\newline<br>1;\ x=0<br>\end{cases}<br>\]</p>
+<p><img src="5.png"></p>
 <h2 id="Real-Exponential-signal"><a href="#Real-Exponential-signal" class="headerlink" title="Real Exponential signal"></a>Real Exponential signal</h2><p>\[<br>x(t)=\exp(-\sigma t)<br>\]</p>
+<p><img src="6.png"></p>
 <h2 id="The-Unit-Impulse-or-Dirac-δ-function"><a href="#The-Unit-Impulse-or-Dirac-δ-function" class="headerlink" title="The Unit Impulse(or Dirac-δ) function"></a>The Unit Impulse(or Dirac-δ) function</h2><p>\[<br>\delta (t)=<br>\begin{cases}<br>\infty;\ t=0<br>\newline<br>0;\ t\neq 0<br>\end{cases}<br>\mbox{and}<br>\int_{-\varepsilon}^{\varepsilon}\delta (t)dt=1; \forall \varepsilon &gt;0<br>\]</p>
+<p><img src="7.png"></p>
 <h2 id="The-Dirac-Comb-function"><a href="#The-Dirac-Comb-function" class="headerlink" title="The Dirac Comb function"></a>The Dirac Comb function</h2><p>\[<br>\xi_T(t)=\sum_{n=-\infty }^{\infty }\delta (t-nT)<br>\]</p>
+<p><img src="8.png"></p>
 <h2 id="Sinusoidal-Signals"><a href="#Sinusoidal-Signals" class="headerlink" title="Sinusoidal Signals"></a>Sinusoidal Signals</h2><p>Sinusoidal signals (or sinusoids) 指的是一类周期性函数：</p>
 <p>\[<br>x(t)=\mu\cos(\omega_0t+\phi)=\frac{\mu}{2}[\exp[j(\omega_0t+\phi)]+\exp[-j(\omega_0t+\phi)]]<br>\]</p>
 <p>\[<br>x(t)=\mu\sin(\omega_0t+\phi)=\frac{\mu}{j2}[\exp[j(\omega_0t+\phi)]-\exp[-j(\omega_0t+\phi)]]<br>\]</p>
@@ -176,11 +184,11 @@
 <p>\(\omega_0t+\phi\)    instantaneous phase (radians)</p>
 <p>一种常见的做法是将\(\omega_0\)替换为\(2\pi f_0\)，其中\(f_0\)是cyclic frequency (in Hz)。</p>
 <p>基本周期可通过\(T_0=\frac{2\pi}{\omega_0}=\frac{1}{f_0}\)求得。</p>
-<h1 id="Time-Scaling-Reversal-and-Shifting-of-Signals"><a href="#Time-Scaling-Reversal-and-Shifting-of-Signals" class="headerlink" title="Time-Scaling, -Reversal and -Shifting of Signals"></a>Time-Scaling, -Reversal and -Shifting of Signals</h1><h2 id="Time-scaling"><a href="#Time-scaling" class="headerlink" title="Time-scaling"></a>Time-scaling</h2><p>对于一个信号\(x(t)\)的time-scaling是将时间变量\(t\)替换为\(\alpha t\)，其中\(\alpha\)为正实数。</p>
+<h1 id="Time-Scaling-Reversal-and-Shifting-of-Signals"><a href="#Time-Scaling-Reversal-and-Shifting-of-Signals" class="headerlink" title="Time-Scaling, -Reversal and -Shifting of Signals"></a>Time-Scaling, -Reversal and -Shifting of Signals</h1><h2 id="Time-scaling"><a href="#Time-scaling" class="headerlink" title="Time-scaling"></a>Time-scaling</h2><p>对于一个信号\(x(t)\)的 time-scaling 是将时间变量\(t\)替换为\(\alpha t\)，其中\(\alpha\)为正实数。</p>
 <p>当\(0&lt;\alpha &lt;1\)时，在时间轴进行扩张（expansion）。</p>
 <p>当\(\alpha &gt;1\)时，在时间轴进行收缩（contraction）。</p>
-<h2 id="Time-reversal"><a href="#Time-reversal" class="headerlink" title="Time-reversal"></a>Time-reversal</h2><p>对于一个信号\(x(t)\)的time-reversal是将时间变量\(t\)替换为\(-t\)。</p>
-<h2 id="Time-shifting"><a href="#Time-shifting" class="headerlink" title="Time-shifting"></a>Time-shifting</h2><p>对于一个信号\(x(t)\)的time-shifting是将时间变量\(t\)替换为\(t-\beta\)，其中\(\beta\)为实数。</p>
+<h2 id="Time-reversal"><a href="#Time-reversal" class="headerlink" title="Time-reversal"></a>Time-reversal</h2><p>对于一个信号\(x(t)\)的 time-reversal 是将时间变量\(t\)替换为\(-t\)。</p>
+<h2 id="Time-shifting"><a href="#Time-shifting" class="headerlink" title="Time-shifting"></a>Time-shifting</h2><p>对于一个信号\(x(t)\)的 time-shifting 是将时间变量\(t\)替换为\(t-\beta\)，其中\(\beta\)为实数。</p>
 <p>当\(\beta &gt;0\)时，延迟\(\beta\)个单位的时间。</p>
 <p>当\(\beta &lt;0\)时，提前\(\beta\)个单位的时间。</p>
 ]]></content>
@@ -191,5 +199,66 @@
         <tag>信号与系统</tag>
         <tag>Signals &amp; Systems</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>信号与系统学习笔记#2</title>
+    <url>/2021/02/09/2021-02-09-01/</url>
+    <content><![CDATA[<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+<a id="more"></a>
+
+<h1 id="频谱定义"><a href="#频谱定义" class="headerlink" title="频谱定义"></a>频谱定义</h1><ul>
+<li>一个信号的频域的表示被称为它的频谱（spectrum）。</li>
+<li>频谱的数学模型，简而言之，就是一个频率的复函数。因此频谱的图像表达就包含了两部分：量谱（magnitude spectrum）和相位谱（phase spectrum）。在某些情况下，可以将其结合为一个谱图。</li>
+</ul>
+<h1 id="Sinusoid-的频谱"><a href="#Sinusoid-的频谱" class="headerlink" title="Sinusoid 的频谱"></a>Sinusoid 的频谱</h1><h2 id="Complex-exponential-signal-的频谱"><a href="#Complex-exponential-signal-的频谱" class="headerlink" title="Complex exponential signal 的频谱"></a>Complex exponential signal 的频谱</h2><p>信号模型：</p>
+<p>\[<br>\tilde x = \mu\exp[j(2\pi f_pt+\phi)] = \mu\exp(j\phi)\exp(j2\pi f_pt)<br>\begin{cases}<br>\mbox{Magnitude Spectrum:}\quad&amp;\mu<br>\newline<br>\mbox{Phase Spectrum:}\quad&amp;\phi<br>\newline<br>\mbox{Frequency:}\quad &amp;f_p<br>\end{cases}<br>\]</p>
+<p>频谱图：</p>
+<p><img src="1.png"></p>
+<h2 id="Cosine-signal-的频谱"><a href="#Cosine-signal-的频谱" class="headerlink" title="Cosine signal 的频谱"></a>Cosine signal 的频谱</h2><p>信号模型：</p>
+<p>\[<br>x_c(t) = \mu\cos(2\pi f_0t+\phi) = \frac{1}{2}\mu\exp[j(2\pi f_0t+\phi)]+\frac{1}{2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp(j\phi)\exp(j2\pi f_0t)+\frac{\mu}{2}\exp(j(-\phi))\exp(j2\pi(-f_0)t)<br>\]</p>
+<p>频谱图：</p>
+<p><img src="2.png"></p>
+<h2 id="Sine-signal-的频谱"><a href="#Sine-signal-的频谱" class="headerlink" title="Sine signal 的频谱"></a>Sine signal 的频谱</h2><p>信号模型：</p>
+<p>\[<br>x_s(t) = \mu\sin(2\pi f_0t+\phi) = \frac{1}{j2}\mu\exp[j(2\pi f_0t+\phi)]-\frac{1}{j2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp[j(\phi - \frac{\pi}{2})]\exp(j2\pi f_0t)+\frac{\mu}{2}\exp[j(-\phi + \frac{\pi}{2})]\exp(j2\pi(-f_0)t)<br>\]</p>
+<p>频谱图：</p>
+<p><img src="3.png"></p>
+<h1 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h1><p>不同于 sinusoids，non-sinusoids 的周期信号的频谱无法简单地通过观察得到。这些信号的频谱可以采用称为傅里叶级数的手段得到。</p>
+<h2 id="Complex-Exponential-Fourier-Series"><a href="#Complex-Exponential-Fourier-Series" class="headerlink" title="Complex Exponential Fourier Series"></a>Complex Exponential Fourier Series</h2><ul>
+<li>任何一个 bounded periodic signal，\(x_p(t)\)，都可以表示为一组 harmonically related complex sinusoids 的加和：</li>
+</ul>
+<p>\[<br>x_p(t) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kt / T_p) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kf_pt)<br>\]</p>
+<p>其中\(1/T_p\)是基本频率，而\(k/T_p\)是信号\(x_p(t)\)的第\(k\)个谐波频率（harmonic frequency）。</p>
+<ul>
+<li><p>\(c_k\)被称为傅里叶系数（Fourier series coefficients），它们构成了\(x_p(t)\)的离散频谱（discrete-frequency spectrum）。</p>
+</li>
+<li><p>给定一个\(x_p(t)\)，如何得到第\(k\)个傅里叶系数，\(c_k\)？</p>
+<p>\[<br>c_k = \frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\exp(-j2\pi kt / T_p)dt,\ k=0,\ \pm 1,\ \pm 2,\dots<br>\]</p>
+</li>
+</ul>
+<h2 id="Trigonometric-Fourier-Series"><a href="#Trigonometric-Fourier-Series" class="headerlink" title="Trigonometric Fourier Series"></a>Trigonometric Fourier Series</h2><ul>
+<li><p>上面的式子也可以用 cosine 和 sine 函数来表示：</p>
+<p>\[<br>x_p(t) = a_0+2\sum_{k=1}^{\infty}[a_k\cos(2\pi kt / T_p)+b_k\sin(2\pi kt / T_p)]<br>\]</p>
+<p>其中</p>
+<p>\[<br>a_k=\frac{c_{-k}+c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\cos(2\pi kt / T_p)dt;\ k\geq 0 \\ b_k=\frac{c_{-k}-c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\sin(2\pi kt / T_p)dt;\ k&gt; 0<br>\]</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>课程学习笔记</category>
+      </categories>
+      <tags>
+        <tag>信号与系统</tag>
+        <tag>Signals &amp; Systems</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于新加坡华人姓氏</title>
+    <url>/2021/02/09/2021-02-09-02/</url>
+    <content><![CDATA[<p>今天上课的时候，突然对一些华人同学的姓氏产生了兴趣。他们的姓氏和咱们的拼音相差很远。</p>
+<p>比如说我的“吴”姓，在这儿可不是 Wu 了，而是 Goh。</p>
+<p>再比如上个学期教授我的 Tan，我先前一直以为他姓谭——很自然的想法。万万没想到，这个 Tan 居然是“陈”姓。还有 Ng 是“黄”姓，Teo 是“张”姓。这如果不去主动了解，是无论如何也没法把它们联系上呀。</p>
+]]></content>
   </entry>
 </search>
