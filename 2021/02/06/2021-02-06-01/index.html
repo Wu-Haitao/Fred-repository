@@ -108,9 +108,13 @@
 </li>
 <li><p>通常用波形图来描述。</p>
 </li>
+<li><p>Analog signal</p>
+<p>A continuous-time signal that can take on any value in the continuous interval \((a, b)\), where \(a\) may be \(-\infty\) and \(b\) may be \(+\infty\).</p>
+</li>
+<li><p>Digital signal</p>
+<p>A continuous-time signal that can take on only a finite number of distinct levels.</p>
+</li>
 </ul>
-<h4 id="Analog-signal"><a href="#Analog-signal" class="headerlink" title="Analog signal"></a>Analog signal</h4><p>A continuous-time signal that can take on any value in the continuous interval \((a, b)\), where \(a\) may be \(-\infty\) and \(b\) may be \(+\infty\).</p>
-<h4 id="Digital-signal"><a href="#Digital-signal" class="headerlink" title="Digital signal"></a>Digital signal</h4><p>A continuous-time signal that can take on only a finite number of distinct levels.</p>
 <h3 id="Discrete-time-signal"><a href="#Discrete-time-signal" class="headerlink" title="Discrete-time signal"></a>Discrete-time signal</h3><ul>
 <li><p>如果信号只在离散的时间戳上有定义，那么信号被称为离散时间信号。</p>
 </li>
@@ -119,9 +123,13 @@
 </li>
 <li><p>离散时间信号可以是自然得到的，比如每日股票平均价格，或者是通过对连续时间信号进行采样得到的。</p>
 </li>
+<li><p>Analog sequence</p>
+<p>A discrete-time signal that can take any value in an interval \((a, b)\), where \(a\) may be \(-\infty\) and \(b\) may be \(+\infty\).</p>
+</li>
+<li><p>Digital sequence</p>
+<p>A discrete-time signal that can take on only a finite number of distinct levels.</p>
+</li>
 </ul>
-<h4 id="Analog-sequence"><a href="#Analog-sequence" class="headerlink" title="Analog sequence"></a>Analog sequence</h4><p>A discrete-time signal that can take any value in an interval \((a, b)\), where \(a\) may be \(-\infty\) and \(b\) may be \(+\infty\).</p>
-<h4 id="Digital-sequence"><a href="#Digital-sequence" class="headerlink" title="Digital sequence"></a>Digital sequence</h4><p>A discrete-time signal that can take on only a finite number of distinct levels.<br>Usually obtained by quantizing a discrete-time signal.</p>
 <h2 id="Periodic-and-Aperiodic-signals"><a href="#Periodic-and-Aperiodic-signals" class="headerlink" title="Periodic and Aperiodic signals"></a>Periodic and Aperiodic signals</h2><ul>
 <li><p>信号 \(x(t)\) 具有周期性如果存在一个正值\(T\)使得</p>
 <p>\[<br>x(t)=x(t+T);\ \forall t<br>\]</p>
@@ -134,7 +142,7 @@
 </li>
 </ul>
 <h2 id="Real-and-Complex-signals"><a href="#Real-and-Complex-signals" class="headerlink" title="Real and Complex signals"></a>Real and Complex signals</h2><ul>
-<li><p>信号\(x(t)\)为复合信号如果其可被表示为\(a(t)+jb(t)\)，其中\(a(t)\)和\(b(t)\)是实信号，\(j\)为虚数单位。</p>
+<li><p>信号\(x(t)\)为复信号如果其可被表示为\(a(t)+jb(t)\)，其中\(a(t)\)和\(b(t)\)是实信号，\(j\)为虚数单位。</p>
 </li>
 <li><p>Cartesian 的形式：</p>
 <p>\[<br>x(t)=a(t)+jb(t)<br>\]</p>
@@ -152,9 +160,9 @@
 <p>\[<br>a(t)=r(t)\cos[\theta(t)]\quad b(t)=r(t)\sin[\theta(t)]<br>\]</p>
 <p>\[<br>r(t)=\sqrt {a^2(t)+b^2(t)}\quad \theta(t)=\tan^{-1}(\frac{b(t)}{a(t)})<br>\]</p>
 </li>
-<li><p>复变信号\(x(t)\)的共轭信号写作\(x^*(t)\)，通过取\(x(t)\)虚部的相反数得到。即替换\(b(t)\)为\(-b(t)\)或替换\(\theta(t)\)为\(-\theta(t)\)。</p>
+<li><p>复信号\(x(t)\)的共轭信号写作\(x^*(t)\)，通过取\(x(t)\)虚部的相反数得到。即替换\(b(t)\)为\(-b(t)\)或替换\(\theta(t)\)为\(-\theta(t)\)。</p>
 </li>
-<li><p>\(x(t)\)为实信号如果对于任何\(t\)值它的取值都是实数。这是复变信号在\(b(t)=0\)或者\(\theta(t)=\pm n\pi=\pm n180°\)的一个特殊情况。</p>
+<li><p>\(x(t)\)为实信号如果对于任何\(t\)值它的取值都是实数。这是复信号在\(b(t)=0\)或者\(\theta(t)=\pm n\pi=\pm n180°\)的一个特殊情况。</p>
 </li>
 </ul>
 <h2 id="Energy-and-Power-signals"><a href="#Energy-and-Power-signals" class="headerlink" title="Energy and Power signals"></a>Energy and Power signals</h2><ul>
@@ -198,7 +206,7 @@
 <p>\(\omega_0\)    angular frequency (rad/s)</p>
 <p>\(\phi\)    phase (radians)</p>
 <p>\(\omega_0t+\phi\)    instantaneous phase (radians)</p>
-<p>一种常见的做法是将\(\omega_0\)替换为\(2\pi f_0\)，其中\(f_0\)是cyclic frequency (in Hz)。</p>
+<p>一种常见的做法是将\(\omega_0\)替换为\(2\pi f_0\)，其中\(f_0\)是 cyclic frequency (in Hz)。</p>
 <p>基本周期可通过\(T_0=\frac{2\pi}{\omega_0}=\frac{1}{f_0}\)求得。</p>
 <h1 id="Time-Scaling-Reversal-and-Shifting-of-Signals"><a href="#Time-Scaling-Reversal-and-Shifting-of-Signals" class="headerlink" title="Time-Scaling, -Reversal and -Shifting of Signals"></a>Time-Scaling, -Reversal and -Shifting of Signals</h1><h2 id="Time-scaling"><a href="#Time-scaling" class="headerlink" title="Time-scaling"></a>Time-scaling</h2><p>对于一个信号\(x(t)\)的 time-scaling 是将时间变量\(t\)替换为\(\alpha t\)，其中\(\alpha\)为正实数。</p>
 <p>当\(0&lt;\alpha &lt;1\)时，在时间轴进行扩张（expansion）。</p>

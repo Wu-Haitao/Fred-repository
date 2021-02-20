@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    信号与系统学习笔记#2 |  清柠
+    信号与系统学习笔记#3 |  清柠
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -45,7 +45,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-2021-02-09-01"
+  id="post-2021-02-20-01"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -56,15 +56,15 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  信号与系统学习笔记#2
+  信号与系统学习笔记#3
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/02/09/2021-02-09-01/" class="article-date">
-  <time datetime="2021-02-09T09:09:59.000Z" itemprop="datePublished">2021-02-09</time>
+      <a href="/2021/02/20/2021-02-20-01/" class="article-date">
+  <time datetime="2021-02-20T06:28:15.000Z" itemprop="datePublished">2021-02-20</time>
 </a> 
   <div class="article-category">
     <a class="article-category-link" href="/categories/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">课程学习笔记</a>
@@ -75,7 +75,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">565</span>
+            <span class="post-count">929</span>
         </span>
     </span>
 
@@ -84,7 +84,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">2 分钟</span>
+            <span class="post-count">5 分钟</span>
         </span>
     </span>
 </div>
@@ -103,40 +103,118 @@
 
 <a id="more"></a>
 
-<h1 id="频谱定义"><a href="#频谱定义" class="headerlink" title="频谱定义"></a>频谱定义</h1><ul>
-<li>一个信号的频域的表示被称为它的频谱（spectrum）。</li>
-<li>频谱的数学模型，简而言之，就是一个频率的复函数。因此频谱的图像表达就包含了两部分：量谱（magnitude spectrum）和相位谱（phase spectrum）。在某些情况下，可以将其结合为一个谱图。</li>
-</ul>
-<h1 id="Sinusoid-的频谱"><a href="#Sinusoid-的频谱" class="headerlink" title="Sinusoid 的频谱"></a>Sinusoid 的频谱</h1><h2 id="Complex-exponential-signal-的频谱"><a href="#Complex-exponential-signal-的频谱" class="headerlink" title="Complex exponential signal 的频谱"></a>Complex exponential signal 的频谱</h2><p>信号模型：</p>
-<p>\[<br>\tilde x = \mu\exp[j(2\pi f_pt+\phi)] = \mu\exp(j\phi)\exp(j2\pi f_pt)<br>\begin{cases}<br>\mbox{Magnitude Spectrum:}\quad&amp;\mu<br>\newline<br>\mbox{Phase Spectrum:}\quad&amp;\phi<br>\newline<br>\mbox{Frequency:}\quad &amp;f_p<br>\end{cases}<br>\]</p>
-<p>频谱图：</p>
-<p><img src="1.png"></p>
-<h2 id="Cosine-signal-的频谱"><a href="#Cosine-signal-的频谱" class="headerlink" title="Cosine signal 的频谱"></a>Cosine signal 的频谱</h2><p>信号模型：</p>
-<p>\[<br>x_c(t) = \mu\cos(2\pi f_0t+\phi) = \frac{1}{2}\mu\exp[j(2\pi f_0t+\phi)]+\frac{1}{2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp(j\phi)\exp(j2\pi f_0t)+\frac{\mu}{2}\exp(j(-\phi))\exp(j2\pi(-f_0)t)<br>\]</p>
-<p>频谱图：</p>
-<p><img src="2.png"></p>
-<h2 id="Sine-signal-的频谱"><a href="#Sine-signal-的频谱" class="headerlink" title="Sine signal 的频谱"></a>Sine signal 的频谱</h2><p>信号模型：</p>
-<p>\[<br>x_s(t) = \mu\sin(2\pi f_0t+\phi) = \frac{1}{j2}\mu\exp[j(2\pi f_0t+\phi)]-\frac{1}{j2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp[j(\phi - \frac{\pi}{2})]\exp(j2\pi f_0t)+\frac{\mu}{2}\exp[j(-\phi + \frac{\pi}{2})]\exp(j2\pi(-f_0)t)<br>\]</p>
-<p>频谱图：</p>
-<p><img src="3.png"></p>
-<h1 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h1><p>不同于 sinusoids，non-sinusoids 的周期信号的频谱无法简单地通过观察得到。这些信号的频谱可以采用称为傅里叶级数的手段得到。</p>
-<h2 id="Complex-Exponential-Fourier-Series"><a href="#Complex-Exponential-Fourier-Series" class="headerlink" title="Complex Exponential Fourier Series"></a>Complex Exponential Fourier Series</h2><ul>
-<li>任何一个 bounded periodic signal，\(x_p(t)\)，都可以表示为一组 harmonically related complex sinusoids 的加和：</li>
-</ul>
-<p>\[<br>x_p(t) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kt / T_p) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kf_pt)<br>\]</p>
-<p>其中\(1/T_p\)是基本频率，而\(k/T_p\)是信号\(x_p(t)\)的第\(k\)个谐波频率（harmonic frequency）。</p>
+<h1 id="傅里叶变换"><a href="#傅里叶变换" class="headerlink" title="傅里叶变换"></a>傅里叶变换</h1><ul>
+<li><p>不同于周期信号，非周期信号具有连续的频谱。</p>
+</li>
+<li><p>一个非周期信号\(x(t)\)的连续频谱（continuous-frequency spectrum），可以用其傅里叶变换\(X(f)\)来表示。这是傅里叶级数在\(T_p\rightarrow\infty,\ k\rightarrow\infty\)和\(k/T_p\rightarrow f\)的极限情况。</p>
+</li>
+<li><p>\(x(t)\)和\(X(f)\)的关系：</p>
+<p>\[<br>\mbox{Forward | t-domain to f-domain} \quad X(f)=\int_{-\infty}^{\infty}\exp(-j2\pi ft)\mathrm{d}t<br>\\<br>\mbox{Inverse | f-domain to t-domain} \quad x(t)=\int_{-\infty}^{\infty}\exp(j2\pi ft)\mathrm{d}f<br>\]</p>
+</li>
+<li><p>Dirichlet’s Conditions</p>
+<p>要使得\(x(t)\)的傅里叶变换存在，以下几个条件需要被满足：</p>
 <ul>
-<li><p>\(c_k\)被称为傅里叶系数（Fourier series coefficients），它们构成了\(x_p(t)\)的离散频谱（discrete-frequency spectrum）。</p>
+<li>On any finite interval<ul>
+<li>\(x(t)\) is bounded</li>
+<li>\(x(t)\) has a finite number of minima and maxima</li>
+<li>\(x(t)\) has a finite number of discontinuities</li>
+</ul>
 </li>
-<li><p>给定一个\(x_p(t)\)，如何得到第\(k\)个傅里叶系数，\(c_k\)？</p>
-<p>\[<br>c_k = \frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\exp(-j2\pi kt / T_p)\mathrm{d}t,\ k=0,\ \pm 1,\ \pm 2,\dots<br>\]</p>
+<li>\(x(t)\) is absolutely integrable</li>
+</ul>
 </li>
 </ul>
-<h2 id="Trigonometric-Fourier-Series"><a href="#Trigonometric-Fourier-Series" class="headerlink" title="Trigonometric Fourier Series"></a>Trigonometric Fourier Series</h2><ul>
-<li><p>上面的式子也可以用 cosine 和 sine 函数来表示：</p>
-<p>\[<br>x_p(t) = a_0+2\sum_{k=1}^{\infty}[a_k\cos(2\pi kt / T_p)+b_k\sin(2\pi kt / T_p)]<br>\]</p>
-<p>其中</p>
-<p>\[<br>a_k=\frac{c_{-k}+c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\cos(2\pi kt / T_p)\mathrm{d}t;\ k\geq 0 \\ b_k=\frac{c_{-k}-c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\sin(2\pi kt / T_p)\mathrm{d}t;\ k&gt; 0<br>\]</p>
+<h1 id="傅里叶变换的性质"><a href="#傅里叶变换的性质" class="headerlink" title="傅里叶变换的性质"></a>傅里叶变换的性质</h1><p>规定</p>
+<p>\[<br>\begin{cases}<br>X(f) = \Im \{x(t)\}\ &amp;\mbox{denote the Fourier transform of}\ x(t)<br>\newline<br>x(t) \rightleftarrows X(f)\ &amp;\mbox{denote a Fourier transform pair}<br>\end{cases}<br>\]</p>
+<ul>
+<li><p>Linearity</p>
+<p>\[<br>\alpha x_1(t) + \beta x_2(t) \rightleftarrows \alpha X_1(f) + \beta X_2(f)<br>\]</p>
+</li>
+<li><p>Time Scaling</p>
+<p>\[<br>x(\beta t) \rightleftarrows \frac{1}{\lvert \beta \rvert}X(\frac{f}{\beta})<br>\]</p>
+</li>
+<li><p>Duality</p>
+<p>\[<br>X(t) \rightleftarrows x(-f)\ \mbox{or}\ X(-t) \rightleftarrows x(f)<br>\]</p>
+</li>
+<li><p>Time Shifting</p>
+<p>\[<br>x(t-t_0) \rightleftarrows X(f)\exp(-j2\pi ft_0)<br>\]</p>
+</li>
+<li><p>Frequency Shifting (Modulation)</p>
+<p>\[<br>x(t)\exp(j2\pi f_0t) \rightleftarrows X(f-f_0)<br>\]</p>
+</li>
+<li><p>Differentiation in the Time Domain</p>
+<p>\[<br>\frac{\mathrm{d}}{\mathrm{d} t}x(t) \rightleftarrows j2\pi f\cdot X(f)<br>\]</p>
+</li>
+<li><p>Integration in the Time Domain</p>
+<p>\[<br>\int_{-\infty}^tx(\tau)\mathrm{d}\tau \rightleftarrows \frac{1}{j2\pi f}X(f) + \frac{1}{2}X(0)\delta (f)<br>\]</p>
+</li>
+<li><p>Convolution in the Time Domain (or Multiplication in the Frequency Domain)</p>
+<p>\[<br>\underbrace{\int_{-\infty}^{\infty} x_1(\zeta) x_2(t-\zeta) \mathrm{d} \zeta}_{x_1(t) * x_2(t)} \rightleftarrows X_1(f) X_2(f)<br>\]</p>
+</li>
+<li><p>Multiplication in the Time Domain (or Convolution in the Frequency Domain)</p>
+<p>\[<br>x_1(t) x_2(t) \rightleftarrows \int_{-\infty}^{\infty} X_1(\zeta) X_2(f-\zeta)\mathrm{d} \zeta<br>\]</p>
+</li>
+</ul>
+<h1 id="REAL-Signal-的频谱性质"><a href="#REAL-Signal-的频谱性质" class="headerlink" title="REAL Signal 的频谱性质"></a>REAL Signal 的频谱性质</h1><ul>
+<li><p>\(x(t)\) is REAL:</p>
+<p>此时\(x^*(t) = x(t)\)，</p>
+<p>\[<br>\underbrace{X^*(f) = X(-f)}_{X(f)\ \mbox{is Conjugate Symmetric}}\quad \underbrace{\lvert X(f) \rvert = \lvert X(-f) \rvert }_{\mbox{EVEN Symmetry}}\quad \underbrace{\angle X(f) = -\angle X(-f)}_{\mbox{ODD Symmetry}}<br>\]</p>
+</li>
+</ul>
+<p><img src="1.png"></p>
+<ul>
+<li><p>\(x(t)\) is REAL and EVEN:</p>
+<p>此时\(x^*(t) = x(t)\mbox{ and }x(t) = x(-t)\)，</p>
+<p>\[<br>\underbrace{\overbrace{X^*(f) = X(f)}^{\mbox{Real}}\ \mbox{and}\ \overbrace{X(f) = X(-f)}^{\mbox{Even}}}_{X(f)\ \mbox{is REAL and EVEN}}<br>\]</p>
+</li>
+</ul>
+<p><img src="2.png"></p>
+<ul>
+<li><p>\(x(t)\) is REAL and ODD:</p>
+<p>此时\(x^*(t) = x(t)\mbox{ and }x(-t) = -x(t)\)，</p>
+<p>\[<br>\underbrace{\overbrace{X^*(f) = -X(f)}^{\mbox{Imaginary}}\ \mbox{and}\ \overbrace{X(f) = -X(-f)}^{\mbox{Odd}}}_{X(f)\ \mbox{is IMAGINARY and ODD}}<br>\]</p>
+</li>
+</ul>
+<p><img src="3.png"></p>
+<p>上述这些结论同样适用于傅里叶级数的系数。</p>
+<h1 id="Dirac-δ-和周期信号的频谱"><a href="#Dirac-δ-和周期信号的频谱" class="headerlink" title="Dirac-δ 和周期信号的频谱"></a>Dirac-δ 和周期信号的频谱</h1><h2 id="The-Continuous-time-Unit-Impulse-Dirac-δ-function"><a href="#The-Continuous-time-Unit-Impulse-Dirac-δ-function" class="headerlink" title="The Continuous-time Unit Impulse (Dirac-δ function)"></a>The Continuous-time Unit Impulse (Dirac-δ function)</h2><p>定义：</p>
+<p>\[<br>\delta (t) =<br>\begin{cases}<br>\infty;\ t=0<br>\newline<br>0;\ t\neq 0<br>\end{cases}<br>\ \mbox{and}\<br>\int_{-\varepsilon}^{\varepsilon}\delta (t) \mathrm{d}t = 1;\ \forall \varepsilon &gt; 0<br>\]</p>
+<p>\(\delta (t)\)的性质：</p>
+<ol>
+<li><p>Symmetry: \(\delta (t) = \delta (-t)\)</p>
+</li>
+<li><p>Sampling: \(x(t)\delta (t-\lambda ) = x(\lambda)\delta (t-\lambda )\)</p>
+</li>
+</ol>
+<p><img src="4.png"></p>
+<ol start="3">
+<li><p>Sifting: \(\int_{-\infty}^{\infty}x(t)\delta (t-\lambda )\mathrm{d} t = x(\lambda )\int_{-\infty}^{\infty}\delta (t-\lambda )\mathrm{d} t = x(\lambda)\)</p>
+</li>
+<li><p>Replication: \(x(t)*\delta (t-\xi ) = \int_{-\infty}^{\infty}x(\xi )\delta (t-\zeta -\xi )\mathrm{d}\zeta = \int_{-\infty}^{\infty}x(\zeta) \delta (\zeta - (t - \xi ))\mathrm{d}\zeta = x(t-\xi ) \\ \mbox{Note: }x(t)*\delta (t) = x(t)\)</p>
+</li>
+</ol>
+<p><img src="5.png"></p>
+<ol start="5">
+<li>White Spectrum: \(\Im \{\delta (t)\} = \int_{-\infty}^{\infty}\delta (t)\exp (-j2\pi ft) \mathrm{d} t = 1\)</li>
+</ol>
+<p><img src="6.png"></p>
+<h2 id="周期信号的频谱"><a href="#周期信号的频谱" class="headerlink" title="周期信号的频谱"></a>周期信号的频谱</h2><p>在 unit impulse function 的帮助下，可以在周期信号上使用傅里叶变换来获取它的连续频谱。</p>
+<ul>
+<li><p>DC</p>
+<p>\[<br>[x(t) = K] \rightleftarrows [X(f) = K\delta (f)]<br>\]</p>
+</li>
+<li><p>Complex Exponential</p>
+<p>\[<br>[x(t) = K\exp (j2\pi f_0 t)] \rightleftarrows [X(f) = K \delta (f - f_0)]<br>\]</p>
+</li>
+<li><p>Cosine</p>
+<p>\[<br>[x(t) = K\cos (2\pi f_0 t)] \rightleftarrows \left [X(f) = \frac{K}{2} \delta (f - f_0) + \frac{K}{2} \delta (f + f_0) \right ]<br>\]</p>
+</li>
+<li><p>Sine</p>
+<p>\[<br>[x(t) = K\sin (2\pi f_0 t)] \rightleftarrows \left [\begin{split}X(f) &amp;= \frac{K}{j2}\delta (f - f_0) - \frac{K}{j2}\delta(f+f_0)]\\&amp;=\frac{K}{2}\exp(-j\frac{\pi}{2})\delta (f - f_0) + \frac{K}{2}\exp(j\frac{\pi}{2}\delta (f + f_0))\end{split} \right ]<br>\]</p>
+</li>
+<li><p>Arbitrary periodic signals</p>
+<p>\[<br>\left [x_p(t) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi\frac{k}{T_p}t) \right ] \rightleftarrows \left [X_p(f) = \sum_{k=-\infty}^{\infty}c_k\delta (f - \frac{k}{T_p}) \right ]<br>\]</p>
+<p>要求得周期信号\(x_p(t)\)的傅里叶变换\(X_p(f)\)，可以先求得其傅里叶系数，然后代入上面的式子。</p>
 </li>
 </ul>
  
@@ -197,7 +275,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wu-haitao.github.io/2021/02/09/2021-02-09-01/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wu-haitao.github.io/2021/02/20/2021-02-20-01/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -210,19 +288,10 @@
    
   <nav class="article-nav">
     
+    
       <a href="/2021/02/09/2021-02-09-02/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            关于新加坡华人姓氏
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2021/02/06/2021-02-06-01/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">信号与系统学习笔记#1</div>
+        <div class="article-nav-title">关于新加坡华人姓氏</div>
       </a>
     
   </nav>
