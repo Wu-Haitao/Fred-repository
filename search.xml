@@ -280,7 +280,7 @@
 <li><p>一个非周期信号\(x(t)\)的连续频谱（continuous-frequency spectrum），可以用其傅里叶变换\(X(f)\)来表示。这是傅里叶级数在\(T_p\rightarrow\infty,\ k\rightarrow\infty\)和\(k/T_p\rightarrow f\)的极限情况。</p>
 </li>
 <li><p>\(x(t)\)和\(X(f)\)的关系：</p>
-<p>\[<br>\mbox{Forward | t-domain to f-domain} \quad X(f)=\int_{-\infty}^{\infty}\exp(-j2\pi ft)\mathrm{d}t<br>\\<br>\mbox{Inverse | f-domain to t-domain} \quad x(t)=\int_{-\infty}^{\infty}\exp(j2\pi ft)\mathrm{d}f<br>\]</p>
+<p>\[<br>\mbox{Forward | t-domain to f-domain} \quad X(f)=\int_{-\infty}^{\infty}x(t)\exp(-j2\pi ft)\mathrm{d}t<br>\\<br>\mbox{Inverse | f-domain to t-domain} \quad x(t)=\int_{-\infty}^{\infty}X(f)\exp(j2\pi ft)\mathrm{d}f<br>\]</p>
 </li>
 <li><p>Dirichlet’s Conditions</p>
 <p>要使得\(x(t)\)的傅里叶变换存在，以下几个条件需要被满足：</p>
