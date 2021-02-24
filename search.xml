@@ -82,9 +82,7 @@
   <entry>
     <title>信号与系统学习笔记#1</title>
     <url>/2021/02/06/2021-02-06-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br>
-
-<a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
 
 <h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="Analog-and-Digital-signals"><a href="#Analog-and-Digital-signals" class="headerlink" title="Analog and Digital signals"></a>Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><ul>
 <li><p>当\(t\)为一个连续变量时信号\(x(t)\)被称作连续时间信号。</p>
@@ -208,11 +206,17 @@
       </tags>
   </entry>
   <entry>
+    <title>关于新加坡华人姓氏</title>
+    <url>/2021/02/09/2021-02-09-02/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天上课的时候，突然对一些华人同学的姓氏产生了兴趣。他们的姓氏和咱们的拼音相差很远。</p>
+<p>比如说我的“吴”姓，在这儿可不是 Wu 了，而是 Goh。</p>
+<p>再比如上个学期教授我的 Tan，我先前一直以为他姓谭——很自然的想法。万万没想到，这个 Tan 居然是“陈”姓。还有 Ng 是“黄”姓，Teo 是“张”姓。这如果不去主动了解，是无论如何也没法把它们联系上呀。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>信号与系统学习笔记#2</title>
     <url>/2021/02/09/2021-02-09-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br>
-
-<a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
 
 <h1 id="频谱定义"><a href="#频谱定义" class="headerlink" title="频谱定义"></a>频谱定义</h1><ul>
 <li>一个信号的频域的表示被称为它的频谱（spectrum）。</li>
@@ -260,46 +264,9 @@
       </tags>
   </entry>
   <entry>
-    <title>关于新加坡华人姓氏</title>
-    <url>/2021/02/09/2021-02-09-02/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天上课的时候，突然对一些华人同学的姓氏产生了兴趣。他们的姓氏和咱们的拼音相差很远。</p>
-<p>比如说我的“吴”姓，在这儿可不是 Wu 了，而是 Goh。</p>
-<p>再比如上个学期教授我的 Tan，我先前一直以为他姓谭——很自然的想法。万万没想到，这个 Tan 居然是“陈”姓。还有 Ng 是“黄”姓，Teo 是“张”姓。这如果不去主动了解，是无论如何也没法把它们联系上呀。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>音乐播放器测试</title>
-    <url>/2021/02/24/2021-02-24-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-wMKxjWRn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-wMKxjWRn"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "Drive",
-              author: "Oh Wonder",
-              url: "Drive.m4a",
-              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-]]></content>
-  </entry>
-  <entry>
     <title>信号与系统学习笔记#3</title>
     <url>/2021/02/20/2021-02-20-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br>
-
-<a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
 
 <h1 id="傅里叶变换"><a href="#傅里叶变换" class="headerlink" title="傅里叶变换"></a>傅里叶变换</h1><ul>
 <li><p>不同于周期信号，非周期信号具有连续的频谱。</p>
@@ -423,5 +390,30 @@
         <tag>信号与系统</tag>
         <tag>Signals &amp; Systems</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>音乐播放器测试</title>
+    <url>/2021/02/24/2021-02-24-01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+        <div id="aplayer-fSBOsIVx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-fSBOsIVx"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "Drive",
+              author: "Oh Wonder",
+              url: "Drive.m4a",
+              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>]]></content>
   </entry>
 </search>
