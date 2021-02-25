@@ -362,12 +362,12 @@
     <title>音乐播放器测试</title>
     <url>/2021/02/24/2021-02-24-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
-        <div id="aplayer-pggxQuRF" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-ZrlzipeE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-pggxQuRF"),
+            element: document.getElementById("aplayer-ZrlzipeE"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -411,7 +411,7 @@
 <ul>
 <li>\(P_x(f)\)是\(f\)的一个实函数。</li>
 <li>对于任意\(f\)，\(P_x(f) \geq 0\)成立。</li>
-<li>当\(x(t)\)为实函数时，(P_x(f))是偶函数。</li>
+<li>当\(x(t)\)为实函数时，\(P_x(f)\)是偶函数。</li>
 </ul>
 <h2 id="周期信号的功率谱密度"><a href="#周期信号的功率谱密度" class="headerlink" title="周期信号的功率谱密度"></a>周期信号的功率谱密度</h2><p>上述计算功率谱密度的公式比较复杂，然而在周期函数中，结果会更加直观一些。</p>
 <p>令\(f_p\)，\(T_p\)和\(c_k\)分别为周期信号\(x_p(t)\)的基本频率，周期和傅里叶系数。</p>
