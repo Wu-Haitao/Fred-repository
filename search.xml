@@ -359,31 +359,6 @@
       </tags>
   </entry>
   <entry>
-    <title>音乐播放器测试</title>
-    <url>/2021/02/24/2021-02-24-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
-        <div id="aplayer-ZrlzipeE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-ZrlzipeE"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "Drive",
-              author: "Oh Wonder",
-              url: "Drive.m4a",
-              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>]]></content>
-  </entry>
-  <entry>
     <title>信号与系统学习笔记#4</title>
     <url>/2021/02/25/2021-02-25-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
@@ -393,7 +368,7 @@
 <p>Rayleigh’s energy theorem 提供了另一个在频域中计算能量的方式：</p>
 <p>\[<br>E = \int_{-\infty}^{\infty} \lvert X(f) \rvert ^2 \mathrm{d}f<br>\]</p>
 <p>因为上述公式右部的积分是信号\(x(t)\)的总信号，我们可以把被积式\(\lvert X(f) \rvert ^2\)看作是该信号在频率\(f\)上的能量密度。由此可得能量谱密度的定义为：</p>
-<p>\[<br>E_x(f) = \lvert X(f) \rvert ^2\ \mbox{Joules/Hz}<br>\]</p>
+<p>\[<br>E_x(f) = \lvert X(f) \rvert ^2\ \mbox{(Joules/Hz)}<br>\]</p>
 <p>\(E_x(f)\)的性质：</p>
 <ul>
 <li>\(E_x(f)\)是\(f\)的一个实函数。</li>
@@ -469,5 +444,30 @@
         <tag>信号与系统</tag>
         <tag>Signals &amp; Systems</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>音乐播放器测试</title>
+    <url>/2021/02/24/2021-02-24-01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+        <div id="aplayer-NTemjnMV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-NTemjnMV"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "Drive",
+              author: "Oh Wonder",
+              url: "Drive.m4a",
+              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>]]></content>
   </entry>
 </search>
