@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>写在最前面</title>
-    <url>/2020/11/29/2020-11-29-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>昨天查资料的时候，发现很多大牛会在自己的博客里分享一些干货，感觉很棒。</p>
-<p>索性折腾一个下午，也给自己建了一个博客。</p>
-<p>平时学点东西总是现学现用，之后大概就忘记了，再往后往往还得费时费力重新学习。这实在不是一个好习惯。应该做一些记录。</p>
-<p>现在我是大二，想必之后会学许多新东西，接触许多新知识。</p>
-<p>就把这个博客作为一个记录的平台吧，挺不错的。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>TextMesh Pro 显示中文字符的方法</title>
     <url>/2020/12/05/2020-12-05-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这两天在写一个用于 Unity 项目中的对话系统时，了解到了 TextMesh Pro 这个玩意儿。它相比于普通的 Text 组件强了不少，但是居然不默认支持中文。咋办呢？</p>
@@ -67,6 +57,16 @@
         <tag>Unity</tag>
         <tag>TextMesh Pro</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>写在最前面</title>
+    <url>/2020/11/29/2020-11-29-01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>昨天查资料的时候，发现很多大牛会在自己的博客里分享一些干货，感觉很棒。</p>
+<p>索性折腾一个下午，也给自己建了一个博客。</p>
+<p>平时学点东西总是现学现用，之后大概就忘记了，再往后往往还得费时费力重新学习。这实在不是一个好习惯。应该做一些记录。</p>
+<p>现在我是大二，想必之后会学许多新东西，接触许多新知识。</p>
+<p>就把这个博客作为一个记录的平台吧，挺不错的。</p>
+]]></content>
   </entry>
   <entry>
     <title>分享一个免费文献下载网站</title>
@@ -378,12 +378,12 @@
     <title>音乐播放器测试</title>
     <url>/2021/02/24/2021-02-24-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-pdmtSgSj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-pIXZUHeb" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-pdmtSgSj"),
+            element: document.getElementById("aplayer-pIXZUHeb"),
             narrow: false,
             autoplay: false,
             showlrc: false,
