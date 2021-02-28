@@ -14,21 +14,19 @@
     <title>TextMesh Pro 显示中文字符的方法</title>
     <url>/2020/12/05/2020-12-05-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这两天在写一个用于 Unity 项目中的对话系统时，了解到了 TextMesh Pro 这个玩意儿。它相比于普通的 Text 组件强了不少，但是居然不默认支持中文。咋办呢？</p>
-<a id="more"></a>
-
 <p align="left">
-  <img src="1.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="1.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
 <p>上网查了查，发现解决的方法很简单。这里我来做个演示。</p>
 <h1 id="使用-Font-Asset-Creator"><a href="#使用-Font-Asset-Creator" class="headerlink" title="使用 Font Asset Creator"></a>使用 Font Asset Creator</h1><p>首先打开 Font Asset Creator 这个工具。</p>
 <p align="left">
-  <img src="2.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="2.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 <p align="left">
-  <img src="3.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="3.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
@@ -42,7 +40,7 @@
 <h1 id="生成并保存-Font-Asset"><a href="#生成并保存-Font-Asset" class="headerlink" title="生成并保存 Font Asset"></a>生成并保存 Font Asset</h1><p>这些选项选好了之后，点击 Generate Font Atlas 开始生成 Font Asset 文件。因为字数比较多，所以生成速度可能会有些慢，耐心等待。</p>
 <p>结束后可以在右边看到生成的结果。</p>
 <p align="left">
-  <img src="4.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="4.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
@@ -50,13 +48,13 @@
 <p>确认无误后，点击 Save 或者 Save as 进行保存。</p>
 <h1 id="应用-Font-Asset-至-TMP"><a href="#应用-Font-Asset-至-TMP" class="headerlink" title="应用 Font Asset 至 TMP"></a>应用 Font Asset 至 TMP</h1><p>保存之后，到 TMP 的 Inspector 里面修改 Font Asset 为刚刚保存的文件。</p>
 <p align="left">
-  <img src="5.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="5.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
 <p>成功显示中文。</p>
 <p align="left">
-  <img src="6.png" alt="" width='50%' height='50%' style="margin: 0;"/>
+  <img src= "/img/loading1.gif" data-lazy-src="6.png" alt="" width='50%' height='50%' style="margin: 0;"/>
 </p>
 
 
@@ -82,7 +80,9 @@
   <entry>
     <title>信号与系统学习笔记#1</title>
     <url>/2021/02/06/2021-02-06-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h1 id="信号分类"><a href="#信号分类" class="headerlink" title="信号分类"></a>信号分类</h1><h2 id="Analog-and-Digital-signals"><a href="#Analog-and-Digital-signals" class="headerlink" title="Analog and Digital signals"></a>Analog and Digital signals</h2><h3 id="Continuous-time-signal"><a href="#Continuous-time-signal" class="headerlink" title="Continuous-time signal"></a>Continuous-time signal</h3><p>当\(t\)为一个连续变量时信号\(x(t)\)被称作连续时间信号。</p>
 <p>通常用波形图来描述。</p>
@@ -142,22 +142,22 @@
 <p>\(P=\mbox{finite}\) → \(E=0\)</p>
 <p>如果两个条件都不满足那么信号不属于其中任何一种。</p>
 <h1 id="基础信号"><a href="#基础信号" class="headerlink" title="基础信号"></a>基础信号</h1><h2 id="The-Unit-Step-function"><a href="#The-Unit-Step-function" class="headerlink" title="The Unit Step function"></a>The Unit Step function</h2><p>\[<br>u(t)=<br>\begin{cases}<br>1;\ t\geq 0<br>\newline<br>0;\ t&lt;0<br>\end{cases}<br>\]</p>
-<p><img src="1.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="1.png"></p>
 <h2 id="The-Sign-or-Signum-function"><a href="#The-Sign-or-Signum-function" class="headerlink" title="The Sign(or Signum) function"></a>The Sign(or Signum) function</h2><p>\[<br>\begin{split}<br>\mathrm{sgn}(t)&amp;=<br>\begin{cases}<br>+1;\ t\geq 0<br>\newline<br>-1;\ t&lt;0<br>\end{cases}<br>\newline<br>&amp;=2u(t)-1<br>\end{split}<br>\]</p>
-<p><img src="2.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="2.png"></p>
 <h2 id="The-Rectangle-function"><a href="#The-Rectangle-function" class="headerlink" title="The Rectangle function"></a>The Rectangle function</h2><p>\[<br>\mathrm{rect}(\frac{t}{T})=<br>\begin{cases}<br>1;\ -\frac{T}{2}\leq t &lt; \frac{T}{2}<br>\newline<br>0;\ \mbox{elsewhere}<br>\end{cases}<br>\]</p>
-<p><img src="3.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="3.png"></p>
 <h2 id="The-Triangle-function"><a href="#The-Triangle-function" class="headerlink" title="The Triangle function"></a>The Triangle function</h2><p>\[<br>\mathrm{tri}(\frac{t}{T})=<br>\begin{cases}<br>1-\frac{|t|}{T};\ |t|\leq T<br>\newline<br>0;\ |t|&gt;T<br>\end{cases}<br>\]</p>
-<p><img src="4.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="4.png"></p>
 <h2 id="The-Sinc-sine-Cardinal-function"><a href="#The-Sinc-sine-Cardinal-function" class="headerlink" title="The Sinc(sine Cardinal) function"></a>The Sinc(sine Cardinal) function</h2><p>\[<br>\mathrm{sinc}(\frac{t}{T})=<br>\begin{cases}<br>\frac{\sin(\pi t/T)}{\pi t/T};\ t\neq 0<br>\newline<br>1;\ t=0<br>\end{cases}<br>\]</p>
 <p>\[<br>\mbox{Note: }<br>\mathrm{sinc}(x)=<br>\begin{cases}<br>0;\ x=\mbox{integer}\neq 0<br>\newline<br>1;\ x=0<br>\end{cases}<br>\]</p>
-<p><img src="5.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="5.png"></p>
 <h2 id="Real-Exponential-signal"><a href="#Real-Exponential-signal" class="headerlink" title="Real Exponential signal"></a>Real Exponential signal</h2><p>\[<br>x(t)=\exp(-\sigma t)<br>\]</p>
-<p><img src="6.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="6.png"></p>
 <h2 id="The-Unit-Impulse-or-Dirac-δ-function"><a href="#The-Unit-Impulse-or-Dirac-δ-function" class="headerlink" title="The Unit Impulse(or Dirac-δ) function"></a>The Unit Impulse(or Dirac-δ) function</h2><p>\[<br>\delta (t)=<br>\begin{cases}<br>\infty;\ t=0<br>\newline<br>0;\ t\neq 0<br>\end{cases}<br>\mbox{and}<br>\int_{-\varepsilon}^{\varepsilon}\delta (t)\mathrm{d}t=1; \forall \varepsilon &gt;0<br>\]</p>
-<p><img src="7.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="7.png"></p>
 <h2 id="The-Dirac-Comb-function"><a href="#The-Dirac-Comb-function" class="headerlink" title="The Dirac Comb function"></a>The Dirac Comb function</h2><p>\[<br>\xi_T(t)=\sum_{n=-\infty }^{\infty }\delta (t-nT)<br>\]</p>
-<p><img src="8.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="8.png"></p>
 <h2 id="Sinusoidal-Signals"><a href="#Sinusoidal-Signals" class="headerlink" title="Sinusoidal Signals"></a>Sinusoidal Signals</h2><p>Sinusoidal signals (or sinusoids) 指的是一类周期性函数：</p>
 <p>\[<br>x(t)=\mu\cos(\omega_0t+\phi)=\frac{\mu}{2}[\exp[j(\omega_0t+\phi)]+\exp[-j(\omega_0t+\phi)]]<br>\]</p>
 <p>\[<br>x(t)=\mu\sin(\omega_0t+\phi)=\frac{\mu}{j2}[\exp[j(\omega_0t+\phi)]-\exp[-j(\omega_0t+\phi)]]<br>\]</p>
@@ -188,22 +188,24 @@
   <entry>
     <title>信号与系统学习笔记#2</title>
     <url>/2021/02/09/2021-02-09-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h1 id="频谱定义"><a href="#频谱定义" class="headerlink" title="频谱定义"></a>频谱定义</h1><p>一个信号的频域的表示被称为它的频谱（spectrum）。</p>
 <p>频谱的数学模型，简而言之，就是一个频率的复函数。因此频谱的图像表达就包含了两部分：量谱（magnitude spectrum）和相位谱（phase spectrum）。在某些情况下，可以将其结合为一个谱图。</p>
 <h1 id="Sinusoid-的频谱"><a href="#Sinusoid-的频谱" class="headerlink" title="Sinusoid 的频谱"></a>Sinusoid 的频谱</h1><h2 id="Complex-exponential-signal-的频谱"><a href="#Complex-exponential-signal-的频谱" class="headerlink" title="Complex exponential signal 的频谱"></a>Complex exponential signal 的频谱</h2><p>信号模型：</p>
 <p>\[<br>\tilde x = \mu\exp[j(2\pi f_pt+\phi)] = \mu\exp(j\phi)\exp(j2\pi f_pt)<br>\begin{cases}<br>\mbox{Magnitude Spectrum:}\quad&amp;\mu<br>\newline<br>\mbox{Phase Spectrum:}\quad&amp;\phi<br>\newline<br>\mbox{Frequency:}\quad &amp;f_p<br>\end{cases}<br>\]</p>
 <p>频谱图：</p>
-<p><img src="1.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="1.png"></p>
 <h2 id="Cosine-signal-的频谱"><a href="#Cosine-signal-的频谱" class="headerlink" title="Cosine signal 的频谱"></a>Cosine signal 的频谱</h2><p>信号模型：</p>
-<p>\[<br>x_c(t) = \mu\cos(2\pi f_0t+\phi) = \frac{1}{2}\mu\exp[j(2\pi f_0t+\phi)]+\frac{1}{2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp(j\phi)\exp(j2\pi f_0t)+\frac{\mu}{2}\exp(j(-\phi))\exp(j2\pi(-f_0)t)<br>\]</p>
+<p>\[<br>\begin{split}<br>x_c(t) &amp;= \mu\cos(2\pi f_0t+\phi) = \frac{1}{2}\mu\exp[j(2\pi f_0t+\phi)]+\frac{1}{2}\mu\exp[-j(2\pi f_0t+\phi)] \\<br>&amp;= \frac{\mu}{2}\exp(j\phi)\exp(j2\pi f_0t)+\frac{\mu}{2}\exp(j(-\phi))\exp(j2\pi(-f_0)t)<br>\end{split}<br>\]</p>
 <p>频谱图：</p>
-<p><img src="2.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="2.png"></p>
 <h2 id="Sine-signal-的频谱"><a href="#Sine-signal-的频谱" class="headerlink" title="Sine signal 的频谱"></a>Sine signal 的频谱</h2><p>信号模型：</p>
-<p>\[<br>x_s(t) = \mu\sin(2\pi f_0t+\phi) = \frac{1}{j2}\mu\exp[j(2\pi f_0t+\phi)]-\frac{1}{j2}\mu\exp[-j(2\pi f_0t+\phi)] \\ = \frac{\mu}{2}\exp[j(\phi - \frac{\pi}{2})]\exp(j2\pi f_0t)+\frac{\mu}{2}\exp[j(-\phi + \frac{\pi}{2})]\exp(j2\pi(-f_0)t)<br>\]</p>
+<p>\[<br>\begin{split}<br>x_s(t) &amp;= \mu\sin(2\pi f_0t+\phi) = \frac{1}{j2}\mu\exp[j(2\pi f_0t+\phi)]-\frac{1}{j2}\mu\exp[-j(2\pi f_0t+\phi)] \\<br>&amp;= \frac{\mu}{2}\exp[j(\phi - \frac{\pi}{2})]\exp(j2\pi f_0t)+\frac{\mu}{2}\exp[j(-\phi + \frac{\pi}{2})]\exp(j2\pi(-f_0)t)<br>\end{split}<br>\]</p>
 <p>频谱图：</p>
-<p><img src="3.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="3.png"></p>
 <h1 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h1><p>不同于 sinusoids，non-sinusoids 的周期信号的频谱无法简单地通过观察得到。这些信号的频谱可以采用称为傅里叶级数的手段得到。</p>
 <h2 id="Complex-Exponential-Fourier-Series"><a href="#Complex-Exponential-Fourier-Series" class="headerlink" title="Complex Exponential Fourier Series"></a>Complex Exponential Fourier Series</h2><p>任何一个 bounded periodic signal，\(x_p(t)\)，都可以表示为一组 harmonically related complex sinusoids 的加和：</p>
 <p>\[<br>x_p(t) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kt / T_p) = \sum_{k=-\infty}^{\infty}c_k\exp(j2\pi kf_pt)<br>\]</p>
@@ -214,7 +216,7 @@
 <h2 id="Trigonometric-Fourier-Series"><a href="#Trigonometric-Fourier-Series" class="headerlink" title="Trigonometric Fourier Series"></a>Trigonometric Fourier Series</h2><p>上面的式子也可以用 cosine 和 sine 函数来表示：</p>
 <p>\[<br>x_p(t) = a_0+2\sum_{k=1}^{\infty}[a_k\cos(2\pi kt / T_p)+b_k\sin(2\pi kt / T_p)]<br>\]</p>
 <p>其中</p>
-<p>\[<br>a_k=\frac{c_{-k}+c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\cos(2\pi kt / T_p)\mathrm{d}t;\ k\geq 0 \\ b_k=\frac{c_{-k}-c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\sin(2\pi kt / T_p)\mathrm{d}t;\ k&gt; 0<br>\]</p>
+<p>\[<br>\begin{split}<br>a_k=\frac{c_{-k}+c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\cos(2\pi kt / T_p)\mathrm{d}t;\ k\geq 0 \\<br>b_k=\frac{c_{-k}-c_k}{2}=\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x_p(t)\sin(2\pi kt / T_p)\mathrm{d}t;\ k&gt; 0<br>\end{split}<br>\]</p>
 ]]></content>
       <categories>
         <category>课程学习笔记</category>
@@ -235,24 +237,31 @@
   <entry>
     <title>信号与系统学习笔记#3</title>
     <url>/2021/02/20/2021-02-20-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h1 id="傅里叶变换"><a href="#傅里叶变换" class="headerlink" title="傅里叶变换"></a>傅里叶变换</h1><p>不同于周期信号，非周期信号具有连续的频谱。</p>
 <p>一个非周期信号\(x(t)\)的连续频谱（continuous-frequency spectrum），可以用其傅里叶变换\(X(f)\)来表示。这是傅里叶级数在\(T_p\rightarrow\infty,\ k\rightarrow\infty\)和\(k/T_p\rightarrow f\)的极限情况。</p>
 <ul>
 <li><p>\(x(t)\)和\(X(f)\)的关系：</p>
-<p>\[<br>\mbox{Forward | t-domain to f-domain} \quad X(f)=\int_{-\infty}^{\infty}x(t)\exp(-j2\pi ft)\mathrm{d}t<br>\\<br>\mbox{Inverse | f-domain to t-domain} \quad x(t)=\int_{-\infty}^{\infty}X(f)\exp(j2\pi ft)\mathrm{d}f<br>\]</p>
+<p>\[<br>\begin{split}<br>\mbox{Forward | t-domain to f-domain} \quad X(f)=\int_{-\infty}^{\infty}x(t)\exp(-j2\pi ft)\mathrm{d}t \\<br>\mbox{Inverse | f-domain to t-domain} \quad x(t)=\int_{-\infty}^{\infty}X(f)\exp(j2\pi ft)\mathrm{d}f<br>\end{split}<br>\]</p>
 </li>
 <li><p>Dirichlet’s Conditions</p>
 <p>要使得\(x(t)\)的傅里叶变换存在，以下几个条件需要被满足：</p>
 <ul>
-<li>On any finite interval<ul>
-<li>\(x(t)\) is bounded</li>
-<li>\(x(t)\) has a finite number of minima and maxima</li>
-<li>\(x(t)\) has a finite number of discontinuities</li>
+<li><p>On any finite interval</p>
+<ul>
+<li><p>\(x(t)\) is bounded</p>
+</li>
+<li><p>\(x(t)\) has a finite number of minima and maxima</p>
+</li>
+<li><p>\(x(t)\) has a finite number of discontinuities</p>
+</li>
 </ul>
 </li>
-<li>\(x(t)\) is absolutely integrable</li>
+<li><p>\(x(t)\) is absolutely integrable</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -265,9 +274,11 @@
 <li><p>Time Scaling</p>
 <p>\[<br>x(\beta t) \rightleftarrows \frac{1}{\lvert \beta \rvert}X(\frac{f}{\beta})<br>\]</p>
 </li>
-<li><p>Duality</p>
-<p>\[<br>X(t) \rightleftarrows x(-f)\ \mbox{or}\ X(-t) \rightleftarrows x(f)<br>\]</p>
+<li><p> Duality</p>
 </li>
+</ul>
+<p>  \[<br>  X(t) \rightleftarrows x(-f)\ \mbox{or}\ X(-t) \rightleftarrows x(f)<br>  \]</p>
+<ul>
 <li><p>Time Shifting</p>
 <p>\[<br>x(t-t_0) \rightleftarrows X(f)\exp(-j2\pi ft_0)<br>\]</p>
 </li>
@@ -293,43 +304,48 @@
 <p>\[<br>\underbrace{X^*(f) = X(-f)}_{X(f)\ \mbox{is Conjugate Symmetric}}\quad \underbrace{\lvert X(f) \rvert = \lvert X(-f) \rvert }_{\mbox{EVEN Symmetry}}\quad \underbrace{\angle X(f) = -\angle X(-f)}_{\mbox{ODD Symmetry}}<br>\]</p>
 </li>
 </ul>
-<p><img src="1.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="1.png"></p>
 <ul>
 <li><p>\(x(t)\) is REAL and EVEN:</p>
 <p>此时\(x^*(t) = x(t)\mbox{ and }x(t) = x(-t)\)，</p>
 <p>\[<br>\underbrace{\overbrace{X^*(f) = X(f)}^{\mbox{Real}}\ \mbox{and}\ \overbrace{X(f) = X(-f)}^{\mbox{Even}}}_{X(f)\ \mbox{is REAL and EVEN}}<br>\]</p>
 </li>
 </ul>
-<p><img src="2.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="2.png"></p>
 <ul>
 <li><p>\(x(t)\) is REAL and ODD:</p>
 <p>此时\(x^*(t) = x(t)\mbox{ and }x(-t) = -x(t)\)，</p>
 <p>\[<br>\underbrace{\overbrace{X^*(f) = -X(f)}^{\mbox{Imaginary}}\ \mbox{and}\ \overbrace{X(f) = -X(-f)}^{\mbox{Odd}}}_{X(f)\ \mbox{is IMAGINARY and ODD}}<br>\]</p>
 </li>
 </ul>
-<p><img src="3.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="3.png"></p>
 <p>上述这些结论同样适用于傅里叶级数的系数。</p>
 <h1 id="Dirac-δ-和周期信号的频谱"><a href="#Dirac-δ-和周期信号的频谱" class="headerlink" title="Dirac-δ 和周期信号的频谱"></a>Dirac-δ 和周期信号的频谱</h1><h2 id="The-Continuous-time-Unit-Impulse-Dirac-δ-function"><a href="#The-Continuous-time-Unit-Impulse-Dirac-δ-function" class="headerlink" title="The Continuous-time Unit Impulse (Dirac-δ function)"></a>The Continuous-time Unit Impulse (Dirac-δ function)</h2><p>定义：</p>
 <p>\[<br>\delta (t) =<br>\begin{cases}<br>\infty;\ t=0<br>\newline<br>0;\ t\neq 0<br>\end{cases}<br>\ \mbox{and}\<br>\int_{-\varepsilon}^{\varepsilon}\delta (t) \mathrm{d}t = 1;\ \forall \varepsilon &gt; 0<br>\]</p>
 <p>\(\delta (t)\)的性质：</p>
 <ol>
-<li><p>Symmetry: \(\delta (t) = \delta (-t)\)</p>
-</li>
-<li><p>Sampling: \(x(t)\delta (t-\lambda ) = x(\lambda)\delta (t-\lambda )\)</p>
-</li>
+<li>Symmetry: </li>
 </ol>
-<p><img src="4.png"></p>
+<p>  \[<br>  \delta (t) = \delta (-t)<br>  \]</p>
+<ol start="2">
+<li>Sampling:</li>
+</ol>
+<p>  \[<br>  x(t)\delta (t-\lambda ) = x(\lambda)\delta (t-\lambda )<br>  \]</p>
+<p><img src= "/img/loading1.gif" data-lazy-src="4.png"></p>
 <ol start="3">
-<li><p>Sifting: \(\int_{-\infty}^{\infty}x(t)\delta (t-\lambda )\mathrm{d} t = x(\lambda )\int_{-\infty}^{\infty}\delta (t-\lambda )\mathrm{d} t = x(\lambda)\)</p>
-</li>
-<li><p>Replication: \(x(t)*\delta (t-\xi ) = \int_{-\infty}^{\infty}x(\xi )\delta (t-\zeta -\xi )\mathrm{d}\zeta = \int_{-\infty}^{\infty}x(\zeta) \delta (\zeta - (t - \xi ))\mathrm{d}\zeta = x(t-\xi ) \\ \mbox{Note: }x(t)*\delta (t) = x(t)\)</p>
-</li>
+<li>Sifting: </li>
 </ol>
-<p><img src="5.png"></p>
+<p>  \[<br>  \int_{-\infty}^{\infty}x(t)\delta (t-\lambda )\mathrm{d} t = x(\lambda )\int_{-\infty}^{\infty}\delta (t-\lambda )\mathrm{d} t = x(\lambda)<br>  \]</p>
+<ol start="4">
+<li>Replication: </li>
+</ol>
+<p>  \[<br>  \begin{split}<br>  &amp;x(t)*\delta (t-\xi ) = \int_{-\infty}^{\infty}x(\xi )\delta (t-\zeta -\xi )\mathrm{d}\zeta = \int_{-\infty}^{\infty}x(\zeta) \delta (\zeta - (t - \xi ))\mathrm{d}\zeta = x(t-\xi ) \\<br>  &amp;\mbox{Note: }x(t)*\delta (t) = x(t)<br>  \end{split}<br>  \]</p>
+<p><img src= "/img/loading1.gif" data-lazy-src="5.png"></p>
 <ol start="5">
-<li>White Spectrum: \(\Im \{\delta (t)\} = \int_{-\infty}^{\infty}\delta (t)\exp (-j2\pi ft) \mathrm{d} t = 1\)</li>
+<li>White Spectrum: </li>
 </ol>
-<p><img src="6.png"></p>
+<p>  \[<br>  \Im \{\delta (t)\} = \int_{-\infty}^{\infty}\delta (t)\exp (-j2\pi ft) \mathrm{d} t = 1<br>  \]</p>
+<p><img src= "/img/loading1.gif" data-lazy-src="6.png"></p>
 <h2 id="周期信号的频谱"><a href="#周期信号的频谱" class="headerlink" title="周期信号的频谱"></a>周期信号的频谱</h2><p>在 unit impulse function 的帮助下，可以在周期信号上使用傅里叶变换来获取它的连续频谱。</p>
 <ul>
 <li><p>DC</p>
@@ -359,9 +375,37 @@
       </tags>
   </entry>
   <entry>
+    <title>音乐播放器测试</title>
+    <url>/2021/02/24/2021-02-24-01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>
+        <div id="aplayer-pdmtSgSj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-pdmtSgSj"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "Drive",
+              author: "Oh Wonder",
+              url: "Drive.m4a",
+              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+]]></content>
+  </entry>
+  <entry>
     <title>信号与系统学习笔记#4</title>
     <url>/2021/02/25/2021-02-25-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h1 id="能量谱密度"><a href="#能量谱密度" class="headerlink" title="能量谱密度"></a>能量谱密度</h1><p>能量谱密度（energy spectral density）描述了信号的能量在其频率上的分布情况。在时域中，信号\(x(t)\)的能量可通过下面这个公式计算：</p>
 <p>\[<br>E = \int_{-\infty}^{\infty} \lvert x(t) \rvert ^2 \mathrm{d}t<br>\]</p>
@@ -371,9 +415,12 @@
 <p>\[<br>E_x(f) = \lvert X(f) \rvert ^2\ \mbox{(Joules/Hz)}<br>\]</p>
 <p>\(E_x(f)\)的性质：</p>
 <ul>
-<li>\(E_x(f)\)是\(f\)的一个实函数。</li>
-<li>对于任意\(f\)，\(E_x(f) \geq 0\)成立。</li>
-<li>当\(x(t)\)为实函数时，\(E_x(f)\)是偶函数。</li>
+<li><p>\(E_x(f)\)是\(f\)的一个实函数。</p>
+</li>
+<li><p>对于任意\(f\)，\(E_x(f) \geq 0\)成立。</p>
+</li>
+<li><p>当\(x(t)\)为实函数时，\(E_x(f)\)是偶函数。</p>
+</li>
 </ul>
 <h1 id="功率谱密度"><a href="#功率谱密度" class="headerlink" title="功率谱密度"></a>功率谱密度</h1><p>前面关于能量谱密度的内容仅在能量信号上有意义。类似的，对于功率信号，可以通过功率谱密度（power spectral density）来描述其功率在频率上的分布情况。</p>
 <p>在时域中，功率被定义为信号幅度平方的平均量：</p>
@@ -384,9 +431,12 @@
 <p>\[<br>P_x(f) = \lim_{T \to \infty} \frac{1}{2T} \lvert X_T(f) \rvert ^2\ \mbox{(Watts/Hz)}<br>\]</p>
 <p>\(P_x(f)\)的性质：</p>
 <ul>
-<li>\(P_x(f)\)是\(f\)的一个实函数。</li>
-<li>对于任意\(f\)，\(P_x(f) \geq 0\)成立。</li>
-<li>当\(x(t)\)为实函数时，\(P_x(f)\)是偶函数。</li>
+<li><p>\(P_x(f)\)是\(f\)的一个实函数。</p>
+</li>
+<li><p>对于任意\(f\)，\(P_x(f) \geq 0\)成立。</p>
+</li>
+<li><p>当\(x(t)\)为实函数时，\(P_x(f)\)是偶函数。</p>
+</li>
 </ul>
 <h2 id="周期信号的功率谱密度"><a href="#周期信号的功率谱密度" class="headerlink" title="周期信号的功率谱密度"></a>周期信号的功率谱密度</h2><p>上述计算功率谱密度的公式比较复杂，然而在周期函数中，结果会更加直观一些。</p>
 <p>令\(f_p\)，\(T_p\)和\(c_k\)分别为周期信号\(x_p(t)\)的基本频率，周期和傅里叶系数。</p>
@@ -402,40 +452,41 @@
 <p>其中\(B\)是信号的频宽。</p>
 </li>
 </ul>
-<p><img src="1.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="1.png"></p>
 <ul>
 <li><p>Bandpass Signal</p>
 <p>如果一个信号的频率成分在一个确定的有限频率范围之外都为零，那么这个信号被称作 bandlimited bandpass signal。</p>
-<p>\[<br>\lvert X(f) \rvert = 0;\quad \lvert f \rvert &lt; f_c - B/2 \ \mbox{or}\ \lvert f \rvert &gt; f_c + B/2<br>\]</p>
+<p>\[<br>\lvert X(f) \rvert = 0;\quad \lvert f \rvert &lt; f_c - B/2 \ \mbox{or}\ \lvert f \rvert &gt; f_c + B/2<br>\]s</p>
 <p>其中\(f_c\)和\(B\)分别为该信号的中心频率（center frequency）和频宽。</p>
 </li>
 </ul>
-<p><img src="2.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="2.png"></p>
 <h2 id="Signals-with-Unrestricted-Band"><a href="#Signals-with-Unrestricted-Band" class="headerlink" title="Signals with Unrestricted Band"></a>Signals with Unrestricted Band</h2><h3 id="3dB-Bandwidth"><a href="#3dB-Bandwidth" class="headerlink" title="3dB Bandwidth"></a>3dB Bandwidth</h3><ul>
 <li><p>Lowpass Signal</p>
 <p>The 3dB bandwidth of a lowpass signal \(x(t)\) is defined as the frequency at which \(\lvert X(f) \rvert = \lvert X(0) \rvert / \sqrt{2}\) first occurs when \(f\) is increased from 0.</p>
-<p>\(f_B\) is called the 3dB frequency because \(20\log_{10}(\lvert X(f_B) / X(0)\rvert) = 20\log_{10}(1/\sqrt{2}) \approx -3.01\ \mbox{dB}\)</p>
+<p>\(f_B\) is called the 3dB frequency because: </p>
+<p>\[<br>\begin{split}<br>20\log_{10}(\lvert X(f_B) / X(0)\rvert) &amp;= 20\log_{10}(1/\sqrt{2}) \\<br>&amp;\approx -3.01\ \mbox{dB}<br>\end{split}<br>\]</p>
 </li>
 </ul>
-<p><img src="3.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="3.png"></p>
 <ul>
 <li><p>Bandpass Signal</p>
 <p>Likewise, the 3dB bandwidth of a bandpass signal \(x(t)\) with center frequency \(f_c\) is defined as illustrated below:</p>
 </li>
 </ul>
-<p><img src="4.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="4.png"></p>
 <h3 id="1st-null-Bandwidth"><a href="#1st-null-Bandwidth" class="headerlink" title="1st-null Bandwidth"></a>1<sup>st</sup>-null Bandwidth</h3><ul>
 <li><p>Lowpass Signal</p>
 <p>The 1<sup>st</sup>-null bandwidth of a lowpass signal \(x(t)\) is defined as the frequency at which \(\lvert X(f) \rvert = 0\) first occurs when \(f\) is increased from 0:</p>
 </li>
 </ul>
-<p><img src="5.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="5.png"></p>
 <ul>
 <li><p>Bandpass Signal</p>
 <p>Likewise, the 1<sup>st</sup>-null (a.k.a. null-to-null) bandwidth of a bandpass signal \(x(t)\) with center frequency \(f_c\) is defined as illustrated below:</p>
 </li>
 </ul>
-<p><img src="6.png"></p>
+<p><img src= "/img/loading1.gif" data-lazy-src="6.png"></p>
 ]]></content>
       <categories>
         <category>课程学习笔记</category>
@@ -444,30 +495,5 @@
         <tag>信号与系统</tag>
         <tag>Signals &amp; Systems</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>音乐播放器测试</title>
-    <url>/2021/02/24/2021-02-24-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><a id="more"></a>
-        <div id="aplayer-NTemjnMV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-NTemjnMV"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "Drive",
-              author: "Oh Wonder",
-              url: "Drive.m4a",
-              pic: "/2021/02/24/2021-02-24-01/cover.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>]]></content>
   </entry>
 </search>
